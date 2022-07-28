@@ -256,7 +256,7 @@ def get_2021_22_season_pos(club):
         return 20
 
 
-def get_last_stats_test(data, stat, name, no_last_stats=3):
+def get_last_stats_test(data, stat, name, no_last_stats=short_term_stats):
     name_df = data[data["name"] == name]
     list_stats = []
     stats_x = []
@@ -271,7 +271,7 @@ def get_last_stats_test(data, stat, name, no_last_stats=3):
     return name_df
 
 
-def get_all_players_last_stats_test(data, stat, no_last_stats=3):
+def get_all_players_last_stats_test(data, stat, no_last_stats=short_term_stats):
     players_df = []
     for player in data["name"].unique():
         data_player = get_last_stats_test(data, stat, player, no_last_stats)
@@ -385,7 +385,6 @@ def clean_train():
     train_data_21_22 = pd.merge(
         train_data_21_22,
         players_stats_20_21,
-        players_stats_20_21,
         left_on="name",
         right_on="name_ex",
         how="left",
@@ -444,7 +443,7 @@ def clean_firstmatchday():
         get_2021_22_season_pos
     )
     players_stats_21_22 = pd.read_csv(
-        "/content/drive/MyDrive/Fplpredict /cleaned_players_21_22_2.csv", index_col=0
+        "cleaned_players_21_22_2.csv", index_col=0
     )
     players_stats_21_22.drop(
         ["season_name", "element_code", "start_cost", "end_cost"], axis=1, inplace=True
@@ -463,11 +462,13 @@ def clean_firstmatchday():
     for position in ["DEF", "GKP", "FWD", "MID"]:
         data_position = test_data[test_data["position"].isin([position])]
         for stat in position_stats[position]:
-            data_position = get_all_players_last_stats(data_position, stat)
-            data_position = get_all_players_last_stats(
+            print(stat)
+            data_position = get_all_players_last_stats_test(data_position, stat)
+            data_position = get_all_players_last_stats_test(
                 data_position, stat, long_term_stats
             )
-        if position != "GK":
+        if position != "GKP":
+            print(data_position.columns)
             data_position = create_features(
                 data_position, mode_features, mean_features, std_features
             )

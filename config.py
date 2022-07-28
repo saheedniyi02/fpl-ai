@@ -32,7 +32,6 @@ droppped_columns = [
     "value",
     "yellow_cards",
     "result_difference",
-    "result",
     "name_ex",
 ]
 
@@ -64,14 +63,12 @@ forward_statistics = [
 
 
 midfielder_statistics = [
-    "result",
     "assists",
     "opp_team_name",
     "result",
     "creativity",
     "goals_scored",
     "clean_sheets",
-    "result",
     "value",
     "bps",
     "bonus",
@@ -111,7 +108,6 @@ goalkeeper_statistics = [
     "total_points",
 ]
 defender_statistics = [
-    "result",
     "assists",
     "creativity",
     "goals_scored",
@@ -139,6 +135,7 @@ defender_statistics = [
 position_stats = {
     "FWD": forward_statistics,
     "GK": goalkeeper_statistics,
+    "GKP": goalkeeper_statistics,
     "DEF": defender_statistics,
     "MID": midfielder_statistics,
 }
