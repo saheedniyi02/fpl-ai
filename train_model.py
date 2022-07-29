@@ -1,10 +1,13 @@
 import pandas as pd
+import warnings
+
+warnings.filterwarnings("ignore")
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.preprocessing import StandardScaler, RobustScaler, MinMaxScaler
 from sklearn.impute import SimpleImputer
-from sklearn.linear_model import LinearRegression,Lasso,Ridge
+from sklearn.linear_model import LinearRegression, Lasso, Ridge
 from sklearn.metrics import (
     mean_squared_error,
     mean_absolute_error,
@@ -12,8 +15,7 @@ from sklearn.metrics import (
     accuracy_score,
     f1_score,
 )
-import warnings
-warnings.filterwarnings("ignore")
+
 
 # GOALKEEPERS
 
@@ -36,9 +38,10 @@ test_gkp.drop(["total_points", "minutes"], axis=1, inplace=True)
 
 
 for col in train_gkp.columns:
-    if (train_gkp[col].dtype == "object") and ((col != "name") or (col!="team_x")):
-        train_gkp[col] = pd.factorize(train_gkp[col])[0]
-        test_gkp[col] = pd.factorize(test_gkp[col])[0]
+    if train_gkp[col].dtype == "object":
+        if col not in ["team_x", "name"]:
+            train_gkp[col] = pd.factorize(train_gkp[col])[0]
+            test_gkp[col] = pd.factorize(test_gkp[col])[0]
 
 train_gkp["was_home"] = train_gkp["was_home"].replace({True: 0, False: 1})
 test_gkp["was_home"] = test_gkp["was_home"].replace({True: 0, False: 1})
@@ -50,12 +53,15 @@ model = Pipeline(
     [
         ("imp", SimpleImputer()),
         ("scaler", RobustScaler()),
-        ("model", RandomForestClassifier(max_depth=8, verbose=2, n_estimators=1000)),
+        ("model", RandomForestClassifier(max_depth=8, n_estimators=1000)),
     ]
 )
 
 x, val, y, y_val = train_test_split(
-    train_gkp.drop(["name","team_x"], axis=1), target["name"], test_size=0.1, random_state=0
+    train_gkp.drop(["name", "team_x"], axis=1),
+    target["name"],
+    test_size=0.1,
+    random_state=0,
 )
 
 
@@ -69,8 +75,10 @@ print(accuracy_score(model.predict(val), y_val))
 
 print(f1_score(model.predict(val), y_val))
 
-test_copy["minutes"] = model.predict(test_gkp.drop(["name","team_x"], axis=1))
-test_copy[["name", "minutes","team_x"]].to_csv("predicted_dataset/goalkeepers_minutes.csv")
+test_copy["minutes"] = model.predict(test_gkp.drop(["name", "team_x"], axis=1))
+test_copy[["name", "minutes", "team_x"]].to_csv(
+    "predicted_dataset/goalkeepers_minutes.csv"
+)
 print(test_copy[["name", "minutes"]])
 
 # only starting players
@@ -92,9 +100,10 @@ train_gkp.drop(["total_points", "minutes"], axis=1, inplace=True)
 test_gkp.drop(["total_points", "minutes"], axis=1, inplace=True)
 
 for col in train_gkp.columns:
-    if (train_gkp[col].dtype == "object") and  ((col != "name") or (col!="team_x")):
-        train_gkp[col] = pd.factorize(train_gkp[col])[0]
-        test_gkp[col] = pd.factorize(test_gkp[col])[0]
+    if train_gkp[col].dtype == "object":
+        if col not in ["team_x", "name"]:
+            train_gkp[col] = pd.factorize(train_gkp[col])[0]
+            test_gkp[col] = pd.factorize(test_gkp[col])[0]
 
 train_gkp["was_home"] = train_gkp["was_home"].replace({True: 0, False: 1})
 
@@ -103,7 +112,10 @@ test_gkp["was_home"] = test_gkp["was_home"].replace({True: 0, False: 1})
 test_gkp = test_gkp[train_gkp.columns]
 
 x, val, y, y_val = train_test_split(
-    train_gkp.drop(["name","team_x"], axis=1), target["name"], test_size=0.1, random_state=0
+    train_gkp.drop(["name", "team_x"], axis=1),
+    target["name"],
+    test_size=0.1,
+    random_state=0,
 )
 
 y = target["total_points"].loc[y.index]
@@ -121,11 +133,13 @@ model = Pipeline(
 model.fit(x, y)
 print(mean_squared_error(model.predict(val), y_val))
 print(mean_absolute_error(model.predict(val), y_val))
-test_gkp["points"] = model.predict(test_gkp.drop(["name","team_x"], axis=1))
+test_gkp["points"] = model.predict(test_gkp.drop(["name", "team_x"], axis=1))
 
 print(test_gkp["points"].sort_values(ascending=False))
 
-print(test_gkp[["name", "points","team_x"]].to_csv("predicted_dataset/goalkeepers_points.csv"))
+test_gkp[["name", "points", "team_x"]].sort_values("points", ascending=False).to_csv(
+    "predicted_dataset/goalkeepers_points.csv"
+)
 
 # DEFENDERS
 train_def = pd.read_csv("cleaned_dataset/train_DEF.csv", index_col=0)
@@ -147,9 +161,10 @@ test_def.drop(["total_points", "minutes"], axis=1, inplace=True)
 
 
 for col in train_def.columns:
-    if (train_def[col].dtype == "object") and  ((col != "name") or (col!="team_x")):
-        train_def[col] = pd.factorize(train_def[col])[0]
-        test_def[col] = pd.factorize(test_def[col])[0]
+    if train_def[col].dtype == "object":
+        if col not in ["team_x", "name"]:
+            train_def[col] = pd.factorize(train_def[col])[0]
+            test_def[col] = pd.factorize(test_def[col])[0]
 
 train_def["was_home"] = train_def["was_home"].replace({True: 0, False: 1})
 test_def["was_home"] = test_def["was_home"].replace({True: 0, False: 1})
@@ -161,14 +176,13 @@ model = Pipeline(
     [
         ("imp", SimpleImputer()),
         ("scaler", RobustScaler()),
-        ("model", RandomForestClassifier(max_depth=8, verbose=2, n_estimators=1000)),
+        ("model", RandomForestClassifier(max_depth=8, n_estimators=1000)),
     ]
 )
 
 x, val, y, y_val = train_test_split(
-    train_def.drop(["name","team_x"], axis=1), target, test_size=0.1, random_state=0
+    train_def.drop(["name", "team_x"], axis=1), target, test_size=0.1, random_state=0
 )
-
 
 
 model.fit(x, y)
@@ -178,8 +192,10 @@ print(accuracy_score(model.predict(val), y_val))
 
 print(f1_score(model.predict(val), y_val))
 
-test_copy["minutes"] = model.predict(test_def.drop(["name","team_x"], axis=1))
-test_copy[["name", "minutes","team_x"]].to_csv("predicted_dataset/defenders_minutes.csv")
+test_copy["minutes"] = model.predict(test_def.drop(["name", "team_x"], axis=1))
+test_copy[["name", "minutes", "team_x"]].to_csv(
+    "predicted_dataset/defenders_minutes.csv"
+)
 print(test_copy[["name", "minutes"]])
 
 # only starting players
@@ -201,9 +217,10 @@ train_def.drop(["total_points", "minutes"], axis=1, inplace=True)
 test_def.drop(["total_points", "minutes"], axis=1, inplace=True)
 
 for col in train_def.columns:
-    if (train_def[col].dtype == "object") and  ((col != "name") or col!="team_x"):
-        train_def[col] = pd.factorize(train_def[col])[0]
-        test_def[col] = pd.factorize(test_def[col])[0]
+    if train_def[col].dtype == "object":
+        if col not in ["team_x", "name"]:
+            train_def[col] = pd.factorize(train_def[col])[0]
+            test_def[col] = pd.factorize(test_def[col])[0]
 
 train_def["was_home"] = train_def["was_home"].replace({True: 0, False: 1})
 
@@ -212,7 +229,7 @@ test_def["was_home"] = test_def["was_home"].replace({True: 0, False: 1})
 test_def = test_def[train_def.columns]
 
 x, val, y, y_val = train_test_split(
-    train_def.drop(["name","team_x"], axis=1), target, test_size=0.1, random_state=0
+    train_def.drop(["name", "team_x"], axis=1), target, test_size=0.1, random_state=0
 )
 
 model = Pipeline(
@@ -226,11 +243,14 @@ model = Pipeline(
 model.fit(x, y)
 print(mean_squared_error(model.predict(val), y_val))
 print(mean_absolute_error(model.predict(val), y_val))
-test_def["points"] = model.predict(test_def.drop(["name","team_x"], axis=1))
+test_def["points"] = model.predict(test_def.drop(["name", "team_x"], axis=1))
 
 print(test_def["points"].sort_values(ascending=False))
 
-print(test_def[["name", "points","team_x"]].to_csv("predicted_dataset/defenders_points.csv"))
+test_def[["name", "points", "team_x"]].sort_values("points", ascending=False).to_csv(
+    "predicted_dataset/defenders_points.csv"
+)
+
 
 # MIDFIELDERS
 
@@ -253,9 +273,10 @@ test_mid.drop(["total_points", "minutes"], axis=1, inplace=True)
 
 
 for col in train_mid.columns:
-    if (train_mid[col].dtype == "object") and  ((col != "name") or (col!="team_x")):
-        train_mid[col] = pd.factorize(train_mid[col])[0]
-        test_mid[col] = pd.factorize(test_mid[col])[0]
+    if train_mid[col].dtype == "object":
+        if col not in ["team_x", "name"]:
+            train_mid[col] = pd.factorize(train_mid[col])[0]
+            test_mid[col] = pd.factorize(test_mid[col])[0]
 
 train_mid["was_home"] = train_mid["was_home"].replace({True: 0, False: 1})
 test_mid["was_home"] = test_mid["was_home"].replace({True: 0, False: 1})
@@ -267,12 +288,12 @@ model = Pipeline(
     [
         ("imp", SimpleImputer()),
         ("scaler", RobustScaler()),
-        ("model", RandomForestClassifier(max_depth=8, verbose=2, n_estimators=1000)),
+        ("model", RandomForestClassifier(max_depth=8, n_estimators=1000)),
     ]
 )
 
 x, val, y, y_val = train_test_split(
-    train_mid.drop(["name","team_x"], axis=1), target, test_size=0.1, random_state=0
+    train_mid.drop(["name", "team_x"], axis=1), target, test_size=0.1, random_state=0
 )
 
 
@@ -283,8 +304,10 @@ print(accuracy_score(model.predict(val), y_val))
 
 print(f1_score(model.predict(val), y_val))
 
-test_copy["minutes"] = model.predict(test_mid.drop(["name","team_x"], axis=1))
-test_copy[["name", "minutes","team_x"]].to_csv("predicted_dataset/midfielders_minutes.csv")
+test_copy["minutes"] = model.predict(test_mid.drop(["name", "team_x"], axis=1))
+test_copy[["name", "minutes", "team_x"]].to_csv(
+    "predicted_dataset/midfielders_minutes.csv"
+)
 print(test_copy[["name", "minutes"]])
 
 # only starting players
@@ -306,9 +329,10 @@ train_mid.drop(["total_points", "minutes"], axis=1, inplace=True)
 test_mid.drop(["total_points", "minutes"], axis=1, inplace=True)
 
 for col in train_mid.columns:
-    if (train_mid[col].dtype == "object") and  ((col != "name") or (col!="team_x")):
-        train_mid[col] = pd.factorize(train_mid[col])[0]
-        test_mid[col] = pd.factorize(test_mid[col])[0]
+    if train_mid[col].dtype == "object":
+        if col not in ["team_x", "name"]:
+            train_mid[col] = pd.factorize(train_mid[col])[0]
+            test_mid[col] = pd.factorize(test_mid[col])[0]
 
 train_mid["was_home"] = train_mid["was_home"].replace({True: 0, False: 1})
 
@@ -317,7 +341,7 @@ test_mid["was_home"] = test_mid["was_home"].replace({True: 0, False: 1})
 test_mid = test_mid[train_mid.columns]
 
 x, val, y, y_val = train_test_split(
-    train_mid.drop(["name","team_x"], axis=1), target, test_size=0.1, random_state=0
+    train_mid.drop(["name", "team_x"], axis=1), target, test_size=0.1, random_state=0
 )
 
 
@@ -332,11 +356,12 @@ model = Pipeline(
 model.fit(x, y)
 print(mean_squared_error(model.predict(val), y_val))
 print(mean_absolute_error(model.predict(val), y_val))
-test_mid["points"] = model.predict(test_mid.drop(["name","team_x"], axis=1))
+test_mid["points"] = model.predict(test_mid.drop(["name", "team_x"], axis=1))
 
 print(test_mid["points"].sort_values(ascending=False))
-
-print(test_mid[["name", "points","team_x"]].to_csv("predicted_dataset/midfielders_points.csv"))
+test_mid[["name", "points", "team_x"]].sort_values("points", ascending=False).to_csv(
+    "predicted_dataset/midfielders_points.csv"
+)
 
 
 # FORWARDS
@@ -360,9 +385,10 @@ test_fwd.drop(["total_points", "minutes"], axis=1, inplace=True)
 
 
 for col in train_fwd.columns:
-    if (train_fwd[col].dtype == "object") and  ((col != "name") or (col!="team_x")):
-        train_fwd[col] = pd.factorize(train_fwd[col])[0]
-        test_fwd[col] = pd.factorize(test_fwd[col])[0]
+    if train_fwd[col].dtype == "object":
+        if col not in ["team_x", "name"]:
+            train_fwd[col] = pd.factorize(train_fwd[col])[0]
+            test_fwd[col] = pd.factorize(test_fwd[col])[0]
 
 train_fwd["was_home"] = train_fwd["was_home"].replace({True: 0, False: 1})
 test_fwd["was_home"] = test_fwd["was_home"].replace({True: 0, False: 1})
@@ -374,12 +400,15 @@ model = Pipeline(
     [
         ("imp", SimpleImputer()),
         ("scaler", RobustScaler()),
-        ("model", RandomForestClassifier(max_depth=8, verbose=2, n_estimators=1000)),
+        ("model", RandomForestClassifier(max_depth=8, n_estimators=1000)),
     ]
 )
 
 x, val, y, y_val = train_test_split(
-    train_fwd.drop(["name","team_x"], axis=1), target["name"], test_size=0.1, random_state=0
+    train_fwd.drop(["name", "team_x"], axis=1),
+    target["name"],
+    test_size=0.1,
+    random_state=0,
 )
 
 
@@ -393,8 +422,10 @@ print(accuracy_score(model.predict(val), y_val))
 
 print(f1_score(model.predict(val), y_val))
 
-test_copy["minutes"] = model.predict(test_fwd.drop(["name","team_x"], axis=1))
-test_copy[["name", "minutes","team_x"]].to_csv("predicted_dataset/forwards_minutes.csv")
+test_copy["minutes"] = model.predict(test_fwd.drop(["name", "team_x"], axis=1))
+test_copy[["name", "minutes", "team_x"]].to_csv(
+    "predicted_dataset/forwards_minutes.csv"
+)
 print(test_copy[["name", "minutes"]])
 
 # only starting players
@@ -416,9 +447,10 @@ train_fwd.drop(["total_points", "minutes"], axis=1, inplace=True)
 test_fwd.drop(["total_points", "minutes"], axis=1, inplace=True)
 
 for col in train_fwd.columns:
-    if (train_fwd[col].dtype == "object") and  ((col != "name") or (col!="team_x")):
-        train_fwd[col] = pd.factorize(train_fwd[col])[0]
-        test_fwd[col] = pd.factorize(test_fwd[col])[0]
+    if train_fwd[col].dtype == "object":
+        if col not in ["team_x", "name"]:
+            train_fwd[col] = pd.factorize(train_fwd[col])[0]
+            test_fwd[col] = pd.factorize(test_fwd[col])[0]
 
 train_fwd["was_home"] = train_fwd["was_home"].replace({True: 0, False: 1})
 
@@ -427,7 +459,10 @@ test_fwd["was_home"] = test_fwd["was_home"].replace({True: 0, False: 1})
 test_fwd = test_fwd[train_fwd.columns]
 
 x, val, y, y_val = train_test_split(
-    train_fwd.drop(["name","team_x"], axis=1), target["name"], test_size=0.1, random_state=0
+    train_fwd.drop(["name", "team_x"], axis=1),
+    target["name"],
+    test_size=0.1,
+    random_state=0,
 )
 
 y = target["total_points"].loc[y.index]
@@ -445,8 +480,10 @@ model = Pipeline(
 model.fit(x, y)
 print(mean_squared_error(model.predict(val), y_val))
 print(mean_absolute_error(model.predict(val), y_val))
-test_fwd["points"] = model.predict(test_fwd.drop(["name","team_x"], axis=1))
+test_fwd["points"] = model.predict(test_fwd.drop(["name", "team_x"], axis=1))
 
 print(test_fwd["points"].sort_values(ascending=False))
 
-print(test_fwd[["name", "points","team_x"]].to_csv("predicted_dataset/fowards_points.csv"))
+test_fwd[["name", "points", "team_x"]].sort_values("points", ascending=False).to_csv(
+    "predicted_dataset/forwards_points.csv"
+)
