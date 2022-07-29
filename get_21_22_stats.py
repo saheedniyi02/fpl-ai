@@ -24,4 +24,4 @@ import pandas as pd
 print(all_stats)
 df = pd.DataFrame(all_stats)
 print(df)
-df.to_csv("cleaned_players_21_22_2.csv")
+df.to_csv("datasets/cleaned_players_21_22_2.csv")

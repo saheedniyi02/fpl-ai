@@ -79,4 +79,4 @@ df["away_team"] = away_teams
 df["kickoff_time"] = kickoff_times
 df["is_home"] = is_homes
 df["team_x"] = my_teams
-df.to_csv("week1.csv")
+df.to_csv("datasets/week1.csv")

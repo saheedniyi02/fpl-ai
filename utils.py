@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
-
 def check_win(data):
     list_win = []
     for index in data.index:
@@ -330,7 +329,7 @@ def create_features(data, mode_features, mean_features, std_features):
 
 def clean_train():
     train_data = pd.read_csv(
-        "cleaned_merged_seasons.txt",
+        "datasets/cleaned_merged_seasons.txt",
         index_col=0,
         low_memory=False,
     )
@@ -362,8 +361,8 @@ def clean_train():
     ].apply(get_2020_21_season_pos)
 
     # load_extra stats
-    players_stats_19_20 = pd.read_csv("cleaned_players_19_20.txt")
-    players_stats_20_21 = pd.read_csv("cleaned_players_20_21.txt")
+    players_stats_19_20 = pd.read_csv("datasets/cleaned_players_19_20.txt")
+    players_stats_20_21 = pd.read_csv("datasets/cleaned_players_20_21.txt")
 
     players_stats_19_20["name"] = (
         players_stats_19_20["first_name"] + " " + players_stats_19_20["second_name"]
@@ -392,6 +391,7 @@ def clean_train():
     data = pd.concat([train_data_20_21, train_data_21_22])
     data = data.sort_values(by="kickoff_time")
     for position in ["DEF", "GK", "FWD", "MID"]:
+        print(position)
         data_position = data[data["position"].isin([position])]
         for stat in position_stats[position]:
             data_position = get_all_players_last_stats(data_position, stat)
@@ -419,11 +419,11 @@ def clean_train():
             axis=1,
             inplace=True,
         )
-        data_position.to_csv(f"train_{position}.csv")
+        data_position.to_csv(f"cleaned_dataset/train_{position}.csv")
 
 
 def clean_firstmatchday():
-    test_data = pd.read_csv("week1.csv", index_col=0)
+    test_data = pd.read_csv("datasets/week1.csv", index_col=0)
     test_data.columns = [
         "id",
         "name",
@@ -443,7 +443,7 @@ def clean_firstmatchday():
         get_2021_22_season_pos
     )
     players_stats_21_22 = pd.read_csv(
-        "cleaned_players_21_22_2.csv", index_col=0
+        "datasets/cleaned_players_21_22_2.csv", index_col=0
     )
     players_stats_21_22.drop(
         ["season_name", "element_code", "start_cost", "end_cost"], axis=1, inplace=True
@@ -460,9 +460,9 @@ def clean_firstmatchday():
             test_data[i] = 0
     test_data.drop(["away_team", "home_team"], axis=1, inplace=True)
     for position in ["DEF", "GKP", "FWD", "MID"]:
+        print(position)
         data_position = test_data[test_data["position"].isin([position])]
         for stat in position_stats[position]:
-            print(stat)
             data_position = get_all_players_last_stats_test(data_position, stat)
             data_position = get_all_players_last_stats_test(
                 data_position, stat, long_term_stats
@@ -488,4 +488,4 @@ def clean_firstmatchday():
             axis=1,
             inplace=True,
         )
-        data_position.to_csv(f"test_{position}.csv")
+        data_position.to_csv(f"cleaned_dataset/test_{position}.csv")

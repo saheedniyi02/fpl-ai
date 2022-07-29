@@ -3,7 +3,6 @@ droppped_columns = [
     "opp_team_name",
     "opponent_team",
     "result",
-    "team_x",
     "position",
     "assists",
     "penalties_missed",
