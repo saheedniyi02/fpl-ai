@@ -1,11 +1,12 @@
 import pandas as pd
 
 
-def get_predictions(formation="442", clubs=None):
+def get_predictions(formation="433", clubs=None):
 
     """
     clubs is the list of clubs
     """
+    
     predicted_fwds = pd.read_csv("predicted_dataset/forwards_points.csv")
     predicted_defs = pd.read_csv("predicted_dataset/defenders_points.csv")
     predicted_gks = pd.read_csv("predicted_dataset/goalkeepers_points.csv")
@@ -42,5 +43,5 @@ def get_full_squad():
     }
 
 
-print(get_predictions(formation="442", clubs=["Man City"]))
+print(get_predictions(formation="442"))
 print(get_full_squad())

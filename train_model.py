@@ -18,7 +18,7 @@ from sklearn.metrics import (
 
 
 # GOALKEEPERS
-
+print("gkps")
 train_gkp = pd.read_csv("cleaned_dataset/train_GK.csv", index_col=0)
 test_gkp = pd.read_csv("cleaned_dataset/test_GKP.csv", index_col=0)
 train_copy = train_gkp.copy()
@@ -49,13 +49,7 @@ test_gkp["was_home"] = test_gkp["was_home"].replace({True: 0, False: 1})
 test_gkp = test_gkp[train_gkp.columns]
 
 
-model = Pipeline(
-    [
-        ("imp", SimpleImputer()),
-        ("scaler", RobustScaler()),
-        ("model", RandomForestClassifier(max_depth=8, n_estimators=1000)),
-    ]
-)
+model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model",RandomForestClassifier(n_estimators=1000,max_depth=10,random_state=1))])
 
 x, val, y, y_val = train_test_split(
     train_gkp.drop(["name", "team_x"], axis=1),
@@ -122,13 +116,7 @@ y = target["total_points"].loc[y.index]
 
 y_val = target["total_points"].loc[y_val.index]
 
-model = Pipeline(
-    [
-        ("imp", SimpleImputer()),
-        ("scaler", StandardScaler()),
-        ("model", LinearRegression()),
-    ]
-)
+model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model", RandomForestRegressor(random_state=0,max_depth=8,n_estimators=1000))])
 
 model.fit(x, y)
 print(mean_squared_error(model.predict(val), y_val))
@@ -142,6 +130,7 @@ test_gkp[["name", "points", "team_x"]].sort_values("points", ascending=False).to
 )
 
 # DEFENDERS
+print("defs")
 train_def = pd.read_csv("cleaned_dataset/train_DEF.csv", index_col=0)
 test_def = pd.read_csv("cleaned_dataset/test_DEF.csv", index_col=0)
 train_copy = train_def.copy()
@@ -172,13 +161,7 @@ test_def["was_home"] = test_def["was_home"].replace({True: 0, False: 1})
 test_def = test_def[train_def.columns]
 
 
-model = Pipeline(
-    [
-        ("imp", SimpleImputer()),
-        ("scaler", RobustScaler()),
-        ("model", RandomForestClassifier(max_depth=8, n_estimators=1000)),
-    ]
-)
+model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model",RandomForestClassifier(n_estimators=1000,max_depth=10,random_state=1))])
 
 x, val, y, y_val = train_test_split(
     train_def.drop(["name", "team_x"], axis=1), target, test_size=0.1, random_state=0
@@ -232,13 +215,7 @@ x, val, y, y_val = train_test_split(
     train_def.drop(["name", "team_x"], axis=1), target, test_size=0.1, random_state=0
 )
 
-model = Pipeline(
-    [
-        ("imp", SimpleImputer()),
-        ("scaler", StandardScaler()),
-        ("model", LinearRegression()),
-    ]
-)
+model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model", RandomForestRegressor(random_state=0,max_depth=8,n_estimators=1000))])
 
 model.fit(x, y)
 print(mean_squared_error(model.predict(val), y_val))
@@ -253,7 +230,7 @@ test_def[["name", "points", "team_x"]].sort_values("points", ascending=False).to
 
 
 # MIDFIELDERS
-
+print("mids")
 train_mid = pd.read_csv("cleaned_dataset/train_MID.csv", index_col=0)
 test_mid = pd.read_csv("cleaned_dataset/test_MID.csv", index_col=0)
 train_copy = train_mid.copy()
@@ -284,13 +261,7 @@ test_mid["was_home"] = test_mid["was_home"].replace({True: 0, False: 1})
 test_mid = test_mid[train_mid.columns]
 
 
-model = Pipeline(
-    [
-        ("imp", SimpleImputer()),
-        ("scaler", RobustScaler()),
-        ("model", RandomForestClassifier(max_depth=8, n_estimators=1000)),
-    ]
-)
+model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model",RandomForestClassifier(n_estimators=1000,max_depth=10,random_state=1))])
 
 x, val, y, y_val = train_test_split(
     train_mid.drop(["name", "team_x"], axis=1), target, test_size=0.1, random_state=0
@@ -345,13 +316,7 @@ x, val, y, y_val = train_test_split(
 )
 
 
-model = Pipeline(
-    [
-        ("imp", SimpleImputer()),
-        ("scaler", StandardScaler()),
-        ("model", LinearRegression()),
-    ]
-)
+model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model", RandomForestRegressor(random_state=0,max_depth=8,n_estimators=1000))])
 
 model.fit(x, y)
 print(mean_squared_error(model.predict(val), y_val))
@@ -365,7 +330,7 @@ test_mid[["name", "points", "team_x"]].sort_values("points", ascending=False).to
 
 
 # FORWARDS
-
+print("fwds")
 train_fwd = pd.read_csv("cleaned_dataset/train_FWD.csv", index_col=0)
 test_fwd = pd.read_csv("cleaned_dataset/test_FWD.csv", index_col=0)
 train_copy = train_fwd.copy()
@@ -396,13 +361,7 @@ test_fwd["was_home"] = test_fwd["was_home"].replace({True: 0, False: 1})
 test_fwd = test_fwd[train_fwd.columns]
 
 
-model = Pipeline(
-    [
-        ("imp", SimpleImputer()),
-        ("scaler", RobustScaler()),
-        ("model", RandomForestClassifier(max_depth=8, n_estimators=1000)),
-    ]
-)
+model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model",RandomForestClassifier(n_estimators=1000,max_depth=10,random_state=1))])
 
 x, val, y, y_val = train_test_split(
     train_fwd.drop(["name", "team_x"], axis=1),
@@ -469,13 +428,7 @@ y = target["total_points"].loc[y.index]
 
 y_val = target["total_points"].loc[y_val.index]
 
-model = Pipeline(
-    [
-        ("imp", SimpleImputer()),
-        ("scaler", StandardScaler()),
-        ("model", LinearRegression()),
-    ]
-)
+model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model", RandomForestRegressor(random_state=0,max_depth=8,n_estimators=1000))])
 
 model.fit(x, y)
 print(mean_squared_error(model.predict(val), y_val))
