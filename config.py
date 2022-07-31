@@ -247,5 +247,6 @@ week1_missing = [
     "result",
 ]
 short_term_stats = 3
-
 long_term_stats = 9
+no_plotted_players = 10
+x_ticks = 90

@@ -6,7 +6,7 @@ def get_predictions(formation="433", clubs=None):
     """
     clubs is the list of clubs
     """
-    
+
     predicted_fwds = pd.read_csv("predicted_dataset/forwards_points.csv")
     predicted_defs = pd.read_csv("predicted_dataset/defenders_points.csv")
     predicted_gks = pd.read_csv("predicted_dataset/goalkeepers_points.csv")

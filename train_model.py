@@ -4,7 +4,11 @@ import warnings
 warnings.filterwarnings("ignore")
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
-from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
+from sklearn.ensemble import (
+    RandomForestClassifier,
+    RandomForestRegressor,
+    GradientBoostingRegressor,
+)
 from sklearn.preprocessing import StandardScaler, RobustScaler, MinMaxScaler
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LinearRegression, Lasso, Ridge
@@ -49,7 +53,18 @@ test_gkp["was_home"] = test_gkp["was_home"].replace({True: 0, False: 1})
 test_gkp = test_gkp[train_gkp.columns]
 
 
-model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model",RandomForestClassifier(n_estimators=1000,max_depth=10,random_state=1))])
+model = Pipeline(
+    [
+        ("imp", SimpleImputer()),
+        ("scaler", StandardScaler()),
+        (
+            "model",
+            RandomForestClassifier(
+                max_depth=10, max_features=10, random_state=0, n_estimators=1000
+            ),
+        ),
+    ]
+)
 
 x, val, y, y_val = train_test_split(
     train_gkp.drop(["name", "team_x"], axis=1),
@@ -116,7 +131,16 @@ y = target["total_points"].loc[y.index]
 
 y_val = target["total_points"].loc[y_val.index]
 
-model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model", RandomForestRegressor(random_state=0,max_depth=8,n_estimators=1000))])
+model = Pipeline(
+    [
+        ("imp", SimpleImputer()),
+        ("scaler", StandardScaler()),
+        (
+            "model",
+            RandomForestRegressor(random_state=0, max_depth=8, n_estimators=1000),
+        ),
+    ]
+)
 
 model.fit(x, y)
 print(mean_squared_error(model.predict(val), y_val))
@@ -161,7 +185,16 @@ test_def["was_home"] = test_def["was_home"].replace({True: 0, False: 1})
 test_def = test_def[train_def.columns]
 
 
-model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model",RandomForestClassifier(n_estimators=1000,max_depth=10,random_state=1))])
+model = Pipeline(
+    [
+        ("imp", SimpleImputer()),
+        ("scaler", StandardScaler()),
+        (
+            "model",
+            RandomForestClassifier(n_estimators=1000, max_depth=10, random_state=1),
+        ),
+    ]
+)
 
 x, val, y, y_val = train_test_split(
     train_def.drop(["name", "team_x"], axis=1), target, test_size=0.1, random_state=0
@@ -199,6 +232,7 @@ target = train_def["total_points"]
 train_def.drop(["total_points", "minutes"], axis=1, inplace=True)
 test_def.drop(["total_points", "minutes"], axis=1, inplace=True)
 
+
 for col in train_def.columns:
     if train_def[col].dtype == "object":
         if col not in ["team_x", "name"]:
@@ -215,7 +249,22 @@ x, val, y, y_val = train_test_split(
     train_def.drop(["name", "team_x"], axis=1), target, test_size=0.1, random_state=0
 )
 
-model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model", RandomForestRegressor(random_state=0,max_depth=8,n_estimators=1000))])
+model = Pipeline(
+    [
+        ("imp", SimpleImputer()),
+        ("scaler", MinMaxScaler()),
+        (
+            "model",
+            GradientBoostingRegressor(
+                random_state=0,
+                max_depth=12,
+                max_features=12,
+                learning_rate=0.01,
+                n_estimators=1000,
+            ),
+        ),
+    ]
+)
 
 model.fit(x, y)
 print(mean_squared_error(model.predict(val), y_val))
@@ -261,7 +310,16 @@ test_mid["was_home"] = test_mid["was_home"].replace({True: 0, False: 1})
 test_mid = test_mid[train_mid.columns]
 
 
-model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model",RandomForestClassifier(n_estimators=1000,max_depth=10,random_state=1))])
+model = Pipeline(
+    [
+        ("imp", SimpleImputer()),
+        ("scaler", StandardScaler()),
+        (
+            "model",
+            RandomForestClassifier(n_estimators=1000, max_depth=10, random_state=1),
+        ),
+    ]
+)
 
 x, val, y, y_val = train_test_split(
     train_mid.drop(["name", "team_x"], axis=1), target, test_size=0.1, random_state=0
@@ -316,7 +374,16 @@ x, val, y, y_val = train_test_split(
 )
 
 
-model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model", RandomForestRegressor(random_state=0,max_depth=8,n_estimators=1000))])
+model = Pipeline(
+    [
+        ("imp", SimpleImputer()),
+        ("scaler", StandardScaler()),
+        (
+            "model",
+            RandomForestRegressor(random_state=0, max_depth=8, n_estimators=1000),
+        ),
+    ]
+)
 
 model.fit(x, y)
 print(mean_squared_error(model.predict(val), y_val))
@@ -361,7 +428,18 @@ test_fwd["was_home"] = test_fwd["was_home"].replace({True: 0, False: 1})
 test_fwd = test_fwd[train_fwd.columns]
 
 
-model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model",RandomForestClassifier(n_estimators=1000,max_depth=10,random_state=1))])
+model = Pipeline(
+    [
+        ("imp", SimpleImputer()),
+        ("scaler", RobustScaler()),
+        (
+            "model",
+            RandomForestClassifier(
+                max_depth=12, max_features=11, random_state=0, n_estimators=1000
+            ),
+        ),
+    ]
+)
 
 x, val, y, y_val = train_test_split(
     train_fwd.drop(["name", "team_x"], axis=1),
@@ -428,7 +506,18 @@ y = target["total_points"].loc[y.index]
 
 y_val = target["total_points"].loc[y_val.index]
 
-model=Pipeline([("imp",SimpleImputer()),("scaler",StandardScaler()),("model", RandomForestRegressor(random_state=0,max_depth=8,n_estimators=1000))])
+model = Pipeline(
+    [
+        ("imp", SimpleImputer()),
+        ("scaler", StandardScaler()),
+        (
+            "model",
+            GradientBoostingRegressor(
+                n_estimators=1000, random_state=0, learning_rate=0.01
+            ),
+        ),
+    ]
+)
 
 model.fit(x, y)
 print(mean_squared_error(model.predict(val), y_val))
