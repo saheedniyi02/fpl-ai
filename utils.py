@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
+
 def check_win(data):
     list_win = []
     for index in data.index:
@@ -332,6 +333,9 @@ def clean_train():
         "datasets/cleaned_merged_seasons.txt",
         index_col=0,
         low_memory=False,
+    )
+    train_data = train_data.drop_duplicates(
+        subset=["name", "GW", "season_x"], keep="last"
     )
     train_data = train_data[train_data["season_x"].isin(["2021-22", "2020-21"])]
     train_data = train_data.sort_values(["name", "kickoff_time"], ascending=True)

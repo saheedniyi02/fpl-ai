@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-from config import no_plotted_players, x_ticks
+from config import no_plotted_players  # , x_ticks
+import plotly.express as px
 
 predicted_fwds = pd.read_csv("predicted_dataset/forwards_points.csv")
 predicted_fwds["name"] = predicted_fwds["name"].replace(
@@ -18,6 +19,12 @@ predicted_mids = pd.read_csv("predicted_dataset/midfielders_points.csv")
 # plot predicted_fwds
 
 
+long_df = px.data.medals_long()
+
+fig = px.bar(long_df, x="nation", y="count", color="medal", title="Long-Form Input")
+# fig.show()
+fig.write_image("plots/fig1.png")
+"""
 fig = plt.figure(figsize=(15, 10), facecolor="white")
 plt.xlabel("Strikers", size=30)
 ax = plt.axes()
@@ -78,4 +85,4 @@ plt.bar(
 plt.xticks(rotation=x_ticks)
 plt.xlabel("Goalkeepers")
 plt.ylabel("Predicted points")
-plt.savefig("plots/predicted_goalkeepers.jpg")
+plt.savefig("plots/predicted_goalkeepers.jpg")"""
