@@ -8,6 +8,13 @@ def get_predictions(formation="433", clubs=None):
     """
 
     predicted_fwds = pd.read_csv("predicted_dataset/forwards_points.csv")
+    predicted_fwds["name"] = predicted_fwds["name"].replace({
+        "Diogo Teixeira da Silva": "Diogo jota",
+        "Cristiano Ronaldo dos Santos Aveiro": "Cristaino Ronaldo",
+        "Gabriel Fernando de Jesus": "Gabriel Jesus",
+        "Darwin Núñez Ribeiro": "Darwin Núñez",})
+    injured=["Richarlison de Andrade","Diogo jota"]
+    predicted_fwds=predicted_fwds[~predicted_fwds["name"].isin(injured)]
     predicted_defs = pd.read_csv("predicted_dataset/defenders_points.csv")
     predicted_gks = pd.read_csv("predicted_dataset/goalkeepers_points.csv")
     predicted_mids = pd.read_csv("predicted_dataset/midfielders_points.csv")
@@ -30,7 +37,15 @@ def get_full_squad():
     """
     clubs is the list of clubs
     """
+
     predicted_fwds = pd.read_csv("predicted_dataset/forwards_points.csv")
+    predicted_fwds["name"] = predicted_fwds["name"].replace({
+        "Diogo Teixeira da Silva": "Diogo jota",
+        "Cristiano Ronaldo dos Santos Aveiro": "Cristaino Ronaldo",
+        "Gabriel Fernando de Jesus": "Gabriel Jesus",
+        "Darwin Núñez Ribeiro": "Darwin Núñez",})
+    injured=["Richarlison de Andrade","Diogo jota"]
+    predicted_fwds=predicted_fwds[~predicted_fwds["name"].isin(injured)]
     predicted_defs = pd.read_csv("predicted_dataset/defenders_points.csv")
     predicted_gks = pd.read_csv("predicted_dataset/goalkeepers_points.csv")
     predicted_mids = pd.read_csv("predicted_dataset/midfielders_points.csv")
@@ -43,5 +58,6 @@ def get_full_squad():
     }
 
 
-print(get_predictions(formation="442"))
-print(get_full_squad())
+def get_my_squad():
+	pass
+	

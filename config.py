@@ -28,11 +28,10 @@ droppped_columns = [
     "transfers_balance",
     "transfers_in",
     "transfers_out",
-    "value",
     "yellow_cards",
     "result_difference",
     "name_ex",
-]
+]#"value",
 
 
 forward_statistics = [
@@ -59,6 +58,8 @@ forward_statistics = [
     "minutes",
     "total_points",
 ]
+
+leak_columns=["name", "team_x"]#columns that shouldnt be used in training fir fear of data leakage
 
 
 midfielder_statistics = [
