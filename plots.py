@@ -1,29 +1,18 @@
-import matplotlib.pyplot as plt
-import pandas as pd
-from config import no_plotted_players  # , x_ticks
-import plotly.express as px
+# import matplotlib.pyplot as plt
+# import pandas as pd
+# from config import no_plotted_players  # , x_ticks
+# import plotly.express as px
 
-predicted_fwds = pd.read_csv("predicted_dataset/forwards_points.csv")
-predicted_fwds["name"] = predicted_fwds["name"].replace(
-    {
-        "Diogo Teixeira da Silva": "Diogo jota",
-        "Cristiano Ronaldo dos Santos Aveiro": "Cristaino Ronaldo",
-        "Gabriel Fernando de Jesus": "Gabriel Jesus",
-        "Darwin Núñez Ribeiro": "Darwin Núñez",
-    }
-)
-predicted_defs = pd.read_csv("predicted_dataset/defenders_points.csv")
-predicted_gks = pd.read_csv("predicted_dataset/goalkeepers_points.csv")
-predicted_mids = pd.read_csv("predicted_dataset/midfielders_points.csv")
-
+# predicted_fwds = pd.read_csv("predicted_dataset/forwards_points.csv")
+# predicted_fwds["name"] = predicted_fwds["name"].replace({"Diogo Teixeira da Silva": "Diogo jota","Cristiano Ronaldo dos Santos Aveiro": "Cristaino Ronaldo","Gabriel Fernando de Jesus": "Gabriel Jesus","Darwin Núñez Ribeiro": "Darwin Núñez",})
+# predicted_defs = pd.read_csv("predicted_dataset/defenders_points.csv")
+# predicted_gks = pd.read_csv("predicted_dataset/goalkeepers_points.csv")
+# predicted_mids = pd.read_csv("predicted_dataset/midfielders_points.csv")
 # plot predicted_fwds
-
-
-long_df = px.data.medals_long()
-
-fig = px.bar(long_df, x="nation", y="count", color="medal", title="Long-Form Input")
+# long_df = px.data.medals_long()
+# fig = px.bar(long_df, x="nation", y="count", color="medal", title="Long-Form Input")
 # fig.show()
-fig.write_image("plots/fig1.png")
+# fig.write_image("plots/fig1.png")
 """
 fig = plt.figure(figsize=(15, 10), facecolor="white")
 plt.xlabel("Strikers", size=30)

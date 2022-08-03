@@ -31,7 +31,7 @@ droppped_columns = [
     "yellow_cards",
     "result_difference",
     "name_ex",
-]#"value",
+]  # "value",
 
 
 forward_statistics = [
@@ -59,7 +59,10 @@ forward_statistics = [
     "total_points",
 ]
 
-leak_columns=["name", "team_x"]#columns that shouldnt be used in training fir fear of data leakage
+leak_columns = [
+    "name",
+    "team_x",
+]  # columns that shouldnt be used in training fir fear of data leakage
 
 
 midfielder_statistics = [
@@ -250,4 +253,3 @@ week1_missing = [
 short_term_stats = 3
 long_term_stats = 9
 no_plotted_players = 10
-x_ticks = 90
