@@ -1,0 +1,528 @@
+,id,name,cost,position,home_team,away_team,kickoff_time,is_home,team_x
+0,1,Cédric Alves Soares,45,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+1,2,Bernd Leno,45,GKP,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+2,3,Granit Xhaka,50,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+3,4,Mohamed Elneny,45,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+4,5,Rob Holding,45,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+5,6,Thomas Partey,50,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+6,7,Martin Ødegaard,65,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+7,8,Kieran Tierney,50,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+8,9,Nicolas Pépé,55,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+9,10,Benjamin White,45,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+10,11,Eddie Nketiah,70,FWD,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+11,12,Emile Smith Rowe,60,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+12,13,Bukayo Saka,80,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+13,14,Takehiro Tomiyasu,45,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+14,15,Aaron Ramsdale,50,GKP,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+15,16,Gabriel dos Santos Magalhães,50,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+16,17,Nuno Varela Tavares,45,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+17,18,Albert Sambi Lokonga,45,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+18,19,Gabriel Martinelli Silva,60,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+19,20,Pablo Marí Villar,45,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+20,21,Ainsley Maitland-Niles,50,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+21,22,Lucas Torreira di Pascua,45,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+22,23,Reiss Nelson,50,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+23,24,Matt Turner,40,GKP,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+24,25,Fábio Ferreira Vieira,60,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+25,26,William Saliba,45,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+26,27,Marcus Oliveira Alencar,50,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+27,28,Gabriel Fernando de Jesus,80,FWD,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,False,Arsenal
+28,29,Philippe Coutinho Correia,70,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+29,30,Danny Ings,70,FWD,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+30,31,Emiliano Martínez Romero,50,GKP,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+31,32,Calum Chambers,45,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+32,33,Lucas Digne,50,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+33,34,Bertrand Traoré,50,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+34,35,Robin Olsen,40,GKP,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+35,36,Morgan Sanson,45,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+36,37,John McGinn,55,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+37,38,Kortney Hause,45,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+38,39,Tyrone Mings,45,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+39,40,Ollie Watkins,75,FWD,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+40,41,Marvelous Nakamba,45,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+41,42,Emiliano Buendía Stati,60,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+42,43,Matty Cash,50,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+43,44,Ezri Konsa Ngoyo,45,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+44,45,Leon Bailey,50,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+45,46,Douglas Luiz Soares de Paulo,50,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+46,47,Jacob Ramsey,55,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+47,48,Carney Chukwuemeka,45,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+48,49,Tim Iroegbunam,45,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+49,50,Diego Carlos Santos Silva,50,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+50,51,Anwar El Ghazi,50,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+51,52,Keinan Davis,55,FWD,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+52,53,Boubacar Kamara,50,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+53,54,Cameron Archer,45,FWD,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+54,55,Jaden Philogene-Bidace,45,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+55,56,Frédéric Guilbert,40,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+56,525,Ludwig Augustinsson,45,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,False,Aston Villa
+57,57,Adam Smith,45,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+58,58,Junior Stanislas,50,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+59,59,Ryan Fredericks,45,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+60,60,David Brooks,55,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+61,61,Jamal Lowe,55,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+62,62,Kieffer Moore,55,FWD,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+63,63,Emiliano Marcondes,50,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+64,64,Jefferson Lerma Solís,50,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+65,65,Jack Stacey,45,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+66,66,Dominic Solanke,60,FWD,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+67,67,Lewis Cook,50,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+68,68,Ben Pearson,45,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+69,69,Ryan Christie,55,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+70,70,Philip Billing,55,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+71,71,Chris Mepham,45,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+72,72,Mark Travers,45,GKP,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+73,73,Lloyd Kelly,45,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+74,74,Siriki Dembélé,50,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+75,75,Jaidon Anthony,55,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+76,76,Jordan Zemura,45,DEF,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+77,77,Will Dennis,40,GKP,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+78,505,Joe Rothwell,50,MID,Bournemouth,Aston Villa,2022-08-06T14:00:00Z,True,Bournemouth
+79,78,Pontus Jansson,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+80,79,Christian Nørgaard,55,MID,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+81,80,Ivan Toney,70,FWD,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+82,81,David Raya Martin,45,GKP,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+83,82,Sergi Canós Tenés,50,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+84,83,Josh Dasilva,45,MID,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+85,84,Kristoffer Ajer,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+86,85,Rico Henry,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+87,86,Vitaly Janelt,55,MID,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+88,87,Saman Ghoddos,50,MID,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+89,88,Mathias Jensen,50,MID,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+90,89,Yoane Wissa,55,MID,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+91,90,Mads Roerslev Rasmussen,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+92,91,Mads Bech Sørensen,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+93,92,Ethan Pinnock,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+94,93,Frank Onyeka,50,MID,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+95,94,Shandon Baptiste,45,MID,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+96,95,Bryan Mbeumo,60,FWD,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+97,96,Charlie Goode,40,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+98,97,Marcus Forss,45,FWD,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+99,98,Dominic Thompson,40,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+100,99,Mads Bidstrup,45,MID,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+101,100,Ellery Balcombe,40,GKP,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+102,510,Aaron Hickey,50,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+103,515,Keane Lewis-Potter,55,MID,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+104,517,Thomas Strakosha,45,GKP,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+105,526,Ben Mee,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,False,Brentford
+106,101,Adam Lallana,50,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+107,102,Jason Steele,40,GKP,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+108,103,Danny Welbeck,65,FWD,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+109,104,Pascal Groß,55,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+110,105,Shane Duffy,45,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+111,106,Lewis Dunk,45,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+112,107,Solly March,50,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+113,108,Adam Webster,45,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+114,109,Joël Veltman,45,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+115,110,Neal Maupay,65,FWD,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+116,111,Leandro Trossard,65,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+117,112,Marc Cucurella Saseta,50,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+118,113,Robert Sánchez,45,GKP,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+119,114,Tariq Lamptey,45,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+120,115,Steven Alzate,45,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+121,116,Alexis Mac Allister,55,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+122,117,Jakub Moder,45,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+123,118,Enock Mwepu,55,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+124,119,Jeremy Sarmiento Morante,45,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+125,120,Moisés Caicedo Corozo,50,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+126,121,Taylor Richards,45,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+127,122,Haydon Roberts,40,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+128,123,Deniz Undav,55,FWD,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+129,124,Kaoru Mitoma,50,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+130,125,Julio Enciso,50,FWD,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+131,126,Kacper Kozłowski,45,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,False,Brighton
+132,127,César Azpilicueta,50,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+133,128,Thiago Emiliano da Silva,55,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+134,129,Marcos Alonso,55,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+135,130,Jorge Luiz Frello Filho,60,MID,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+136,131,Ross Barkley,50,MID,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+137,132,Mateo Kovacic,50,MID,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+138,133,Kepa Arrizabalaga,45,GKP,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+139,134,N'Golo Kanté,50,MID,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+140,135,Hakim Ziyech,60,MID,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+141,136,Ruben Loftus-Cheek,50,MID,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+142,137,Timo Werner,80,FWD,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+143,138,Robert Kenedy Nunes do Nascimento,40,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+144,139,Ben Chilwell,60,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+145,140,Christian Pulisic,60,MID,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+146,141,Trevoh Chalobah,50,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+147,142,Mason Mount,80,MID,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+148,143,Malang Sarr,50,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+149,144,Callum Hudson-Odoi,55,MID,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+150,145,Kai Havertz,80,FWD,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+151,146,Reece James,60,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+152,147,Edouard Mendy,50,GKP,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+153,148,Conor Gallagher,60,MID,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+154,149,Billy Gilmour,45,MID,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+155,150,Armando Broja,55,FWD,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+156,151,Ethan Ampadu,45,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+157,304,Raheem Sterling,100,MID,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+158,520,Kalidou Koulibaly,55,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,False,Chelsea
+159,152,Vicente Guaita,45,GKP,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+160,153,James Tomkins,40,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+161,154,James McArthur,50,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+162,155,Christian Benteke,55,FWD,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+163,156,Joel Ward,45,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+164,157,Nathaniel Clyne,45,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+165,158,Luka Milivojevic,45,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+166,159,Jordan Ayew,55,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+167,160,Wilfried Zaha,70,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+168,161,Jeffrey Schlupp,50,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+169,162,Jack Butland,45,GKP,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+170,163,Will Hughes,50,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+171,164,Jairo Riedewald,45,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+172,165,Joachim Andersen,45,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+173,166,Odsonne Edouard,55,FWD,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+174,167,Marc Guéhi,45,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+175,168,Jean-Philippe Mateta,55,FWD,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+176,169,Eberechi Eze,55,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+177,170,Tyrick Mitchell,45,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+178,171,Michael Olise,55,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+179,172,Jesurun Rak-Sakyi,45,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+180,173,Malcolm Ebiowei,45,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+181,174,Nathan Ferguson,40,DEF,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+182,175,Sam Johnstone,45,GKP,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+183,495,Remi Matthews,40,GKP,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+184,496,Luke Plange,45,FWD,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+185,514,Cheick Doucouré,50,MID,Crystal Palace,Arsenal,2022-08-05T19:00:00Z,True,Crystal Palace
+186,176,Asmir Begović,40,GKP,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+187,177,Salomón Rondón,50,FWD,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+188,178,Seamus Coleman,45,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+189,179,Andros Townsend,55,MID,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+190,180,Michael Keane,45,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+191,181,Dele Alli,55,MID,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+192,182,Jordan Pickford,45,GKP,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+193,183,Allan Marques Loureiro,50,MID,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+194,184,André Tavares Gomes,45,MID,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+195,185,Abdoulaye Doucouré,55,MID,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+196,186,Alex Iwobi,55,MID,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+197,187,Jean-Philippe Gbamin,45,MID,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+198,188,Yerry Mina,45,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+199,189,Demarai Gray,55,MID,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+200,190,Tom Davies,50,MID,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+201,191,Dominic Calvert-Lewin,80,FWD,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+202,192,Mason Holgate,45,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+203,193,Ben Godfrey,45,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+204,194,Vitalii Mykolenko,45,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+205,195,Anthony Gordon,55,MID,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+206,196,Jarrad Branthwaite,40,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+207,197,Nathan Patterson,40,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+208,198,Niels Nkounkou,40,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+209,199,James Tarkowski,45,DEF,Everton,Chelsea,2022-08-06T16:30:00Z,True,Everton
+210,200,Tom Cairney,50,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+211,201,Tim Ream,45,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+212,202,Anthony Knockaert,50,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+213,203,Nathaniel Chalobah,45,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+214,204,Neeskens Kebano,55,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+215,205,Bobby De Cordova-Reid,55,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+216,206,Joe Bryan,45,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+217,207,Paulo Gazzaniga Farias,40,GKP,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+218,208,Terence Kongolo,40,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+219,209,Tosin Adarabioyo,45,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+220,210,Aleksandar Mitrović,65,FWD,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+221,211,Harrison Reed,45,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+222,212,Harry Wilson,60,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+223,213,Marek Rodák,45,GKP,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+224,214,Ivan Neves Abreu Cavaleiro,50,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+225,215,Kenny Tete,45,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+226,216,Josh Onomah,45,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+227,217,Antonee Robinson,45,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+228,218,Rodrigo Muniz Carvalho,55,FWD,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+229,219,Jay Stansfield,45,FWD,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+230,220,João Palhinha Gonçalves,50,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+231,346,Andreas Hoelgebaum Pereira,45,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+232,521,Tyrese Francois,45,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,True,Fulham
+233,248,Kasper Schmeichel,50,GKP,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+234,249,Jonny Evans,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+235,250,Ryan Bertrand,40,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+236,251,Marc Albrighton,50,MID,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+237,252,Nampalys Mendy,45,MID,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+238,253,Jannik Vestergaard,40,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+239,254,Danny Ward,40,GKP,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+240,255,Jamie Vardy,95,FWD,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+241,256,Ricardo Barbosa Pereira,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+242,257,Daniel Amartey,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+243,258,Timothy Castagne,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+244,259,Youri Tielemans,65,MID,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+245,260,Ayoze Pérez,50,MID,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+246,261,James Maddison,80,MID,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+247,262,Kelechi Iheanacho,65,FWD,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+248,263,Hamza Choudhury,45,MID,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+249,264,Harvey Barnes,70,MID,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+250,265,Wilfred Ndidi,50,MID,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+251,266,Kiernan Dewsbury-Hall,50,MID,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+252,267,Çaglar Söyüncü,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+253,268,James Justin,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+254,269,Boubakary Soumaré,45,MID,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+255,270,Luke Thomas,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+256,271,Patson Daka,60,FWD,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+257,272,Wesley Fofana,45,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+258,273,Lewis Brunt,40,DEF,Leicester,Brentford,2022-08-07T13:00:00Z,True,Leicester
+259,221,Liam Cooper,45,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+260,222,Luke Ayling,45,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+261,223,Mateusz Klich,50,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+262,224,Adam Forshaw,45,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+263,225,Rodrigo Moreno,60,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+264,226,Stuart Dallas,50,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+265,227,Patrick Bamford,75,FWD,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+266,228,Diego Llorente,45,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+267,229,Tyler Roberts,50,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+268,230,Robin Koch,45,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+269,231,Daniel James,60,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+270,232,Raphael Dias Belloli,70,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+271,233,Jack Harrison,60,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+272,234,Jamie Shackleton,45,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+273,235,Pascal Struijk,45,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+274,236,Kristoffer Klaesson,40,GKP,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+275,237,Sam Greenwood,45,FWD,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+276,238,Illan Meslier,45,GKP,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+277,239,Junior Firpo Adames,45,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+278,240,Crysencio Summerville,45,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+279,241,Lewis Bate,45,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+280,242,Joe Gelhardt,55,FWD,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+281,243,Leo Fuhr Hjelde,40,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+282,244,Rasmus Kristensen,50,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+283,245,Marc Roca Junqué,50,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+284,246,Brenden Aaronson,55,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+285,247,Darko Gyabi,45,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+286,506,Tyler Adams,50,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+287,508,Luis Sinisterra Lucumí,65,MID,Leeds,Wolves,2022-08-06T14:00:00Z,True,Leeds
+288,274,James Milner,45,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+289,275,Jordan Henderson,55,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+290,276,Joel Matip,60,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+291,277,Thiago Alcántara do Nascimento,55,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+292,278,Alex Oxlade-Chamberlain,50,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+293,279,Roberto Firmino,80,FWD,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+294,280,Virgil van Dijk,65,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+295,281,Alisson Ramses Becker,55,GKP,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+296,282,Fabio Henrique Tavares,55,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+297,283,Mohamed Salah,130,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+298,284,Andrew Robertson,70,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+299,285,Trent Alexander-Arnold,75,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+300,286,Joseph Gomez,45,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+301,287,Naby Keita,50,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+302,288,Diogo Teixeira da Silva,90,FWD,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+303,289,Caoimhin Kelleher,40,GKP,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+304,290,Ibrahima Konaté,50,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+305,291,Curtis Jones,50,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+306,292,Konstantinos Tsimikas,45,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+307,293,Luis Díaz,80,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+308,294,Harvey Elliott,50,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+309,296,Fábio Freitas Gouveia Carvalho,55,MID,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+310,297,Darwin Núñez Ribeiro,90,FWD,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+311,298,Calvin Ramsay,40,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+312,497,Adrián San Miguel del Castillo,40,GKP,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+313,498,Rhys Williams,40,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+314,499,Ben Davies,40,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+315,500,Sepp van den Berg,40,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+316,501,Nathaniel Phillips,40,DEF,Fulham,Liverpool,2022-08-06T11:30:00Z,False,Liverpool
+317,299,Kyle Walker,50,DEF,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+318,300,Ilkay Gündogan,75,MID,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+319,301,Kevin De Bruyne,120,MID,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+320,302,John Stones,55,DEF,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+321,303,Riyad Mahrez,80,MID,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+322,305,Jack Grealish,70,MID,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+323,306,João Cancelo,70,DEF,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+324,307,Ederson Santana de Moraes,55,GKP,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+325,308,Nathan Aké,50,DEF,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+326,309,Aymeric Laporte,60,DEF,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+327,310,Zack Steffen,40,GKP,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+328,311,Bernardo Veiga de Carvalho e Silva,70,MID,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+329,312,Rúben Gato Alves Dias,60,DEF,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+330,313,Oleksandr Zinchenko,50,DEF,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+331,314,Phil Foden,80,MID,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+332,315,Rodrigo Hernandez,60,MID,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+333,316,Cole Palmer,45,MID,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+334,317,James McAtee,45,MID,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+335,318,Erling Håland,115,FWD,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+336,319,Julián Álvarez,65,FWD,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+337,320,Luke Mbete-Tabu,40,DEF,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+338,322,Josh Wilson-Esbrand,40,DEF,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+339,323,Liam Delap,45,FWD,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+340,324,Stefan Ortega Moreno,40,GKP,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+341,325,Kalvin Phillips,50,MID,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+342,502,Scott Carson,40,GKP,West Ham,Man City,2022-08-07T15:30:00Z,False,Man City
+343,326,Cristiano Ronaldo dos Santos Aveiro,105,FWD,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+344,327,David De Gea Quintana,50,GKP,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+345,328,Phil Jones,40,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+346,329,Raphaël Varane,50,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+347,330,Harry Maguire,50,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+348,331,Frederico Rodrigues de Paula Santos,55,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+349,332,Luke Shaw,50,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+350,333,Bruno Borges Fernandes,100,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+351,334,Alex Telles,50,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+352,335,Marcus Rashford,65,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+353,336,Donny van de Beek,55,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+354,337,Victor Lindelöf,45,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+355,338,Scott McTominay,50,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+356,339,Eric Bailly,40,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+357,340,Jadon Sancho,75,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+358,341,Aaron Wan-Bissaka,45,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+359,342,Diogo Dalot Teixeira,45,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+360,343,Brandon Williams,40,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+361,344,Anthony Elanga,50,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+362,345,Anthony Martial,70,FWD,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+363,347,Facundo Pellistri Rebollo,45,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+364,348,Tom Heaton,40,GKP,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+365,504,Tyrell Malacia,45,DEF,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+366,519,Christian Eriksen,65,MID,Man Utd,Brighton,2022-08-07T13:00:00Z,True,Man Utd
+367,349,Jonjo Shelvey,50,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+368,350,Matt Ritchie,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+369,351,Federico Fernández,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+370,352,Ciaran Clark,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+371,353,Karl Darlow,40,GKP,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+372,354,Chris Wood,60,FWD,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+373,355,Martin Dubravka,45,GKP,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+374,356,Callum Wilson,75,FWD,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+375,357,Kieran Trippier,50,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+376,358,Dan Burn,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+377,359,Ryan Fraser,55,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+378,360,Jamaal Lascelles,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+379,361,Dwight Gayle,45,FWD,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+380,362,Paul Dummett,40,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+381,363,Javier Manquillo Gaitán,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+382,364,Emil Krafth,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+383,365,Jacob Murphy,45,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+384,366,Fabian Schär,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+385,367,Matt Targett,50,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+386,368,Allan Saint-Maximin,65,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+387,369,Miguel Almirón Rejala,50,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+388,370,Sean Longstaff,45,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+389,371,Joelinton Cássio Apolinário de Lira,60,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+390,372,Jamal Lewis,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+391,373,Joe Willock,50,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+392,374,Bruno Guimarães Rodriguez Moura,60,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+393,375,Jeff Hendrick,45,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+394,376,Nick Pope,50,GKP,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+395,377,Sven Botman,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,True,Newcastle
+396,295,Neco Williams,40,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+397,378,Harry Arter,45,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+398,379,Steve Cook,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+399,380,Lyle Taylor,45,FWD,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+400,381,Jack Colback,45,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+401,382,Brice Samba,45,GKP,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+402,383,Carlos Ribeiro Dias,45,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+403,384,Joe Lolley,50,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+404,385,Scott McKenna,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+405,386,Mohamed Dräger,40,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+406,387,Ryan Yates,50,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+407,388,Joe Worrall,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+408,389,Jonathan Panzo,40,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+409,390,Xande Nascimento da Costa Silva,50,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+410,391,Sam Surridge,50,FWD,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+411,392,Richie Laryea,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+412,393,Loïc Mbe Soh,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+413,394,Brennan Johnson,60,FWD,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+414,395,Alex Mighten,50,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+415,396,Braian Ojeda Rodríguez,45,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+416,397,Taiwo Awoniyi,60,FWD,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+417,398,Dean Henderson,45,GKP,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+418,399,Giulian Biancone,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+419,507,Moussa Niakhaté,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+420,511,Omar Richards,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+421,518,Wayne Hennessey,40,GKP,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+422,523,Harry Toffolo,45,DEF,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+423,524,Lewis O'Brien,50,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+424,527,Jesse Lingard,60,MID,Newcastle,Nott'm Forest,2022-08-06T14:00:00Z,False,Nott'm Forest
+425,321,Roméo Lavia,45,MID,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+426,400,Theo Walcott,50,MID,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+427,401,Alex McCarthy,45,GKP,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+428,402,Oriol Romeu Vidal,50,MID,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+429,403,Nathan Redmond,55,MID,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+430,404,Jack Stephens,45,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+431,405,Stuart Armstrong,50,MID,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+432,406,Mohamed Elyounoussi,55,MID,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+433,407,James Ward-Prowse,65,MID,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+434,408,Adam Armstrong,55,FWD,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+435,409,Kyle Walker-Peters,45,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+436,410,Jan Bednarek,45,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+437,411,Che Adams,65,FWD,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+438,412,Nathan Tella,50,MID,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+439,413,Lyanco Silveira Neves Vojnovic,45,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+440,414,Yan Valery,40,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+441,415,Will Smallbone,45,MID,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+442,416,Ibrahima Diallo,45,MID,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+443,417,Romain Perraud,45,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+444,418,Moussa Djenepo,50,MID,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+445,419,Tino Livramento,45,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+446,420,Mohammed Salisu,45,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+447,421,Mateusz Lis,40,GKP,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+448,422,Gavin Bazunu,45,GKP,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+449,423,Armel Bella-Kotchap,45,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+450,424,Willy Caballero,40,GKP,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+451,512,Joe Ayodele-Aribo,55,MID,Spurs,Southampton,2022-08-06T14:00:00Z,False,Southampton
+452,425,Hugo Lloris,55,GKP,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+453,426,Fraser Forster,40,GKP,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+454,427,Harry Kane,115,FWD,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+455,428,Son Heung-min,120,MID,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+456,429,Matt Doherty,50,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+457,430,Eric Dier,50,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+458,431,Lucas Rodrigues Moura da Silva,60,MID,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+459,432,Ben Davies,50,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+460,433,Pierre-Emile Højbjerg,55,MID,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+461,434,Harry Winks,45,MID,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+462,435,Davinson Sánchez,45,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+463,436,Ryan Sessegnon,45,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+464,437,Steven Bergwijn,55,MID,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+465,438,Sergio Reguilón,45,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+466,439,Japhet Tanganga,40,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+467,440,Rodrigo Bentancur,55,MID,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+468,441,Oliver Skipp,45,MID,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+469,442,Joe Rodon,40,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+470,443,Cristian Romero,50,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+471,444,Yves Bissouma,50,MID,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+472,445,Emerson Leite de Souza Junior,50,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+473,446,Dejan Kulusevski,80,MID,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+474,447,Dane Scarlett,45,FWD,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+475,448,Ivan Perišić,55,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+476,449,Harvey White,45,MID,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+477,450,Pape Matar Sarr,45,MID,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+478,451,Brandon Austin,40,GKP,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+479,452,Alfie Devine,45,MID,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+480,453,Troy Parrott,45,FWD,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+481,454,Richarlison de Andrade,85,FWD,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+482,513,Clément Lenglet,50,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+483,522,Djed Spence,45,DEF,Spurs,Southampton,2022-08-06T14:00:00Z,True,Spurs
+484,455,Lukasz Fabianski,50,GKP,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+485,456,Angelo Ogbonna,45,DEF,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+486,457,Aaron Cresswell,50,DEF,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+487,458,Michail Antonio,75,FWD,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+488,459,Craig Dawson,50,DEF,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+489,460,Manuel Lanzini,55,MID,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+490,461,Kurt Zouma,45,DEF,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+491,462,Arthur Masuaku,45,DEF,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+492,463,Vladimir Coufal,45,DEF,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+493,464,Saïd Benrahma,60,MID,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+494,465,Jarrod Bowen,85,MID,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+495,466,Nikola Vlasic,50,MID,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+496,467,Declan Rice,50,MID,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+497,468,Tomas Soucek,55,MID,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+498,469,Pablo Fornals Malla,55,MID,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+499,470,Issa Diop,45,DEF,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+500,471,Ben Johnson,45,DEF,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+501,472,Nayef Aguerd,50,DEF,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+502,473,Alphonse Areola,45,GKP,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+503,509,Flynn Downes,45,MID,West Ham,Man City,2022-08-07T15:30:00Z,True,West Ham
+504,474,Willy Boly,45,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+505,475,Conor Coady,50,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+506,476,Raúl Jiménez,70,FWD,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+507,477,Jonathan Castro Otto,45,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+508,478,José Malheiro de Sá,50,GKP,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+509,479,Leander Dendoncker,50,MID,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+510,480,Rúben da Silva Neves,55,MID,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+511,481,Hwang Hee-chan,60,MID,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+512,482,Nélson Cabral Semedo,50,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+513,483,Daniel Castelo Podence,55,MID,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+514,484,Max Kilman,45,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+515,485,Luke Cundle,45,MID,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+516,486,Pedro Lomba Neto,55,MID,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+517,487,Rayan Aït-Nouri,45,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+518,488,Fabio Silva,55,FWD,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+519,489,Toti António Gomes,40,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+520,490,Francisco Jorge Tomás Oliveira,50,MID,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+521,491,Adama Traoré Diarra,55,MID,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+522,492,Matija Šarkić,40,GKP,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+523,493,Morgan Gibbs-White,55,MID,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+524,494,Yerson Mosquera Valdelamar,40,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+525,503,João Filipe Iria Santos Moutinho,50,MID,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
+526,516,Nathan Collins,45,DEF,Leeds,Wolves,2022-08-06T14:00:00Z,False,Wolves
