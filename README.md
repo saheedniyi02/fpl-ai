@@ -93,9 +93,13 @@ Mean_squared_error: 3.057<br>
 #### PLOTS
 I scaled down the predicted points from the model **into values between 0 and 1**, I then created **bar plots** for the top 10 players (with the highest predicted points) in each position, using **plotly**.
 ![Top Goalkeepers for gameweek 1](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/goalkeepers.png)
+Goalkeepers
 ![Top Defenders for gameweek 1](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/defenders.png)
+Defenders
 ![Top Midfielders for gameweek 1](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/midfielders.png)
+Midefielders
 ![Top Fowards for gameweek 1](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/forwards.png)
+Forwards
 
  #### Building my team: 
 
