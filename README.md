@@ -107,7 +107,7 @@ I used **PuLP,a linear optimization and discrete programming package in python, 
 
 I built my team following the **FPL constraints.**
 -2 goalkeepers,5 defenders, 5 midfielders and 3 forwards.
--A team value of maximum of $100 , I used $99 though, the $1 Extra is reserved to make future transfers easier.
+-A team value of maximum of 100 , I used 99 though, the 1 Extra is reserved to make future transfers easier. The values of players in the data was multiplied by 10 (default from FPL api, so the team value used in the solution is 1000, 990)
 -Maximum of 3 players from each team.
 -The team that had the highest total predicted points
 
