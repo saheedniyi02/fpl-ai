@@ -115,7 +115,7 @@ I built my team following the **FPL constraints.**
 ![Starting line up](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/Screenshot_20220805-104933.png)
 
 
-#### I intend on making predictions for every game week and I will be documenting the models prediction here @fpl__AI.
+#### I intend on making predictions for every game week and I will be documenting the models prediction and progress here [@fpl__ai](https://twitter.com/fpl__AI).
 
 #### Flaws of the model:
 
