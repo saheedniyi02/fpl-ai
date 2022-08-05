@@ -7,12 +7,12 @@ I decided to build a machine learning project to check if this is possible, and 
 
 Source code can be found [here](https://github.com/saheedniyi02/fpl-ai) <br>
 
-#### Data used?
+### Data used?
 Finding FPL data was pretty hard for me at first , I checked data from Opta stats and any popular football stats platform you could think of but I couldn't get, after searching deeply I came across a [GitHub repository for FPL data](https://github.com/vaastav/Fantasy-Premier-League) and thankfully the data had FPL data from 2016/17. I also discovered that FPL has an [API](https://medium.com/@frenzelts/fantasy-premier-league-api-endpoints-a-detailed-guide-acbd5598eb19) that gives access to fantasy football data, for the current season.
 
 Data from the github repository was used to train the model, the fpl API will be used to get data for every gameweek (Gameweek 1 data already collected) in the current season.<br><br>
 
-#### Data Cleaning and data preparation:
+### Data Cleaning and data preparation:
 
 #### Train Data
 
@@ -23,7 +23,7 @@ So I used only the 2020/21 and 2021/22 data, although there were some missing Ga
 The data in the columns were presented in such a way that each column has information and statistics in a matchday for every player and the "total_points" from that match day is the target I am interested in.<br>
 
 
-#### Data wrangling done:
+### Data wrangling done:
 -I dropped rows with duplicate values of name,season and gameweek.
 
 -I extracted gameweek values from only 2020/21 and 2021/22 seasons.
@@ -51,7 +51,7 @@ The aim of this feature is to capture the **players form, short term and long te
 #### Train test split:
 I splitted the data based on the gameweeks to ensure all gameweeks are well represented in the train and test results.<br><br>
 
-#### Modeling
+### Modeling
 
 I built **2 different models** for each position **(Goalkeepers, defenders, midfielders and forwards).**
 
@@ -88,7 +88,7 @@ Mean_squared_error: 3.057<br>
 
 
 
-#### PLOTS
+### PLOTS
 I scaled down the predicted points from the model **into values between 0 and 1**, I then created **bar plots** for the top 10 players (with the highest predicted points) in each position, using **plotly**.
 ![Top Goalkeepers for gameweek 1](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/goalkeepers.png)
 Goalkeepers
@@ -99,7 +99,7 @@ Midefielders
 ![Top Fowards for gameweek 1](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/forwards.png)
 Forwards
 
- #### Building my team: 
+ ### Building my team: 
 
 I used **PuLP,a linear optimization and discrete programming package in python, to build my team (credits to this [article](https://towardsdatascience.com/how-to-build-a-fantasy-premier-league-team-with-data-science-f01283281236?gi=5bfd5d33d2f7) ).**
 
@@ -117,8 +117,8 @@ I built my team following the **FPL constraints.**
 
 #### I intend on making predictions for every game week and I will be documenting the models prediction and progress here [@fpl__ai](https://twitter.com/fpl__AI).
 
-#### Flaws of the model:
+### Possible Flaws Of the model :
 
--The premier league introduced the 5 substitution rule for the 2022/23 football season the means that a lot of players who previously stayed on the bench in many matches will have more chances of playing.
+-The premier league introduced the *5 substitution rule for the 2022/23 football season* which means that a lot of players who previously stayed on the bench in many matches will have more chances of playing.
 
--I observed the model does not think too highly of new players coming into the league.
+-I observed the model does not think highly of new players coming into the league.
