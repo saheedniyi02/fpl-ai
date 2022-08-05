@@ -5,13 +5,12 @@
 
 I decided to build a machine learning project to check if this is possible, and to check the quality of the predictions. A twitter account created to monitor the results of the model can be found here .
 
-Source code can be found here
+Source code can be found [here](https://github.com/saheedniyi02/fpl-ai) <br>
 
 #### Data used?
-
 Finding FPL data was pretty hard for me at first , I checked data from Opta stats and any popular football stats platform you could think of but I couldn't get, after searching deeply I came across a [GitHub repository for FPL data](https://github.com/vaastav/Fantasy-Premier-League) and thankfully the data had FPL data from 2016/17. I also discovered that FPL has an [API](https://medium.com/@frenzelts/fantasy-premier-league-api-endpoints-a-detailed-guide-acbd5598eb19) that gives access to fantasy football data, for the current season.
 
-Data from the github repository was used to train the model, the fpl API will be used to get data for every gameweek (Gameweek 1 data already collected) in the current season.
+Data from the github repository was used to train the model, the fpl API will be used to get data for every gameweek (Gameweek 1 data already collected) in the current season.<br><br>
 
 #### Data Cleaning and data preparation:
 
@@ -21,7 +20,7 @@ Although the FPL repository has data from 2016/17, I discovered there were many 
 
 So I used only the 2020/21 and 2021/22 data, although there were some missing Gameweeks for some clubs in those years also,it's still better than nothing.
 
-The data in the columns were presented in such a way that each column has information and statistics in a matchday for every player and the "total_points" from that match day is the target I am interested in.
+The data in the columns were presented in such a way that each column has information and statistics in a matchday for every player and the "total_points" from that match day is the target I am interested in.<br>
 
 
 #### Data wrangling done:
@@ -49,10 +48,10 @@ The aim of this feature is to capture the **players form, short term and long te
 
 -I also dropped the important results/ columns from the current Gameweek I’m trying to predict on, this is to prevent any possible data leakage when building the model. I dropped the name and team features, to ensure that the model only makes predictions based on the form of players and not on names of players and teams.
 
--I did almost the same cleaning on the test dataset (data from gameweek 1 of the new season) also.
+-I did almost the same cleaning on the test dataset (data from gameweek 1 of the new season) also.<br>
 
 #### Train test split:
-I splitted the data based on the gameweeks to ensure all gameweeks are well represented in the train and test results.
+I splitted the data based on the gameweeks to ensure all gameweeks are well represented in the train and test results.<br><br>
 
 #### Modeling
 
@@ -61,32 +60,32 @@ I built **2 different models** for each position **(Goalkeepers, defenders, midf
 The **first model is a classification model that predicts whether a player will start or not.**
 
 The **second model is a regression model that predicts the total points of players that played.**
-The **reason for this approach is a lot of players don’t play games at all ** and just predicting the points of all the players directly means our test dataset will have many **0’s which will strongly affect the quality of our regression model.**
+The **reason for this approach is a lot of players don’t play games at all ** and just predicting the points of all the players directly means our test dataset will have many **0’s which will strongly affect the quality of our regression model.**<br>
 
-**Goalkeeper models**: Random Forest Classifier and Random Forest Regressor.
-Evaluation results.
-Accuracy_score: 0.94
-F1_score :0.89
-Mean_squared_error:2.801 points.
+**Goalkeeper models**: Random Forest Classifier and Random Forest Regressor.<br>
+Evaluation results.<br>
+Accuracy_score: 0.94<br>
+F1_score :0.89<br>
+Mean_squared_error:2.801 points.<br>
 
-**Defender models**: Random Forest Classifier and Gradient Boosting Regressor.
-Accuracy score: 0.82
-f1 score: 0.78
-Root_mean_squared_error:  2.718.
-
-
-**Midfielder models**: Random Forest Classifier and Random Forest Regressor.
-Evaluation results.
-Accuracy score: 0.82
-f1 score: 0.82
-Root_mean_squared_error: 2.700
+**Defender models**: Random Forest Classifier and Gradient Boosting Regressor.<br>
+Accuracy score: 0.82<br>
+f1 score: 0.78<br>
+Root_mean_squared_error:  2.718.<br>
 
 
-**Forwards models**: Random Forest Classifier and Gradient Boosting Regressor.
-Evaluation results.
-Accuracy_score: 0.82
-F1_score :  0.79
-Mean_squared_error: 3.057
+**Midfielder models**: Random Forest Classifier and Random Forest Regressor.<br>
+Evaluation results.<br>
+Accuracy score: 0.82<br>
+f1 score: 0.82<br>
+Root_mean_squared_error: 2.700<br>
+
+
+**Forwards models**: Random Forest Classifier and Gradient Boosting Regressor.<br>
+Evaluation results.<br>
+Accuracy_score: 0.82<br>
+F1_score :  0.79<br>
+Mean_squared_error: 3.057<br>
 
 
 
