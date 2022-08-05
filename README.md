@@ -40,11 +40,9 @@ The data in the columns were presented in such a way that each column has inform
 
 -I splitted the dataset into each position, (Goalkeepers, defenders, midfielders and forwards).
 
--I created two types of features; long term and short term features, the features were numpy arrays. The array contains the values of a particular stats from previous match days, the long term stats feature considered the last 9 features prior to every match day in the datapoints, the short term stats considered the last 3 matches.
+-I created two types of features; long term and short term features for each position, the features were numpy arrays . The array contains the values of a particular stats from previous match days, the long term stats feature considered the last 9 features prior to every match day in the datapoints, the short term stats considered the last 3 matches, different stats for different positions.
 
-The aim of this feature is to capture the **players form, short term and long term.**
-
--I calculated the mean, standard deviation and mode of some of these lists ,lists that were empty(from the first match in a season) were given values of -1 , and then I dropped the long term and short term features.
+The aim of this feature is to capture the **players form, short term and long term.** I calculated the mean, standard deviation and mode of some of these arrays ,arrays that were empty (the first match in a season) were given values of -1 , and then I dropped the long term and short term features.
 
 -I also dropped the important results/ columns from the current Gameweek I’m trying to predict on, this is to prevent any possible data leakage when building the model. I dropped the name and team features, to ensure that the model only makes predictions based on the form of players and not on names of players and teams.
 
