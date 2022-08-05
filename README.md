@@ -112,7 +112,8 @@ I built my team following the **FPL constraints.**
 -The team that had the highest total predicted points
 
 **The team selections for gameweek 1 can be seen below.**
-![Teams](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/Screenshot_20220805-104913.png)
+<br>
+![Teams](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/Screenshot_20220805-104913.png) <br>
 ![Starting line up](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/Screenshot_20220805-104933.png)
 
 
@@ -120,6 +121,6 @@ I built my team following the **FPL constraints.**
 
 #### Flaws of the model:
 
-The premier league introduced the 5 substitution rule for the 2022/23 football season the means that a lot of players who previously stayed on the bench in many matches will have more chances of playing.
+-The premier league introduced the 5 substitution rule for the 2022/23 football season the means that a lot of players who previously stayed on the bench in many matches will have more chances of playing.
 
-I observed the model does not think too highly of new players coming into the league.
+-I observed the model does not think too highly of new players coming into the league.
