@@ -119,6 +119,6 @@ I built my team following the **FPL constraints.**
 
 ### Possible Flaws Of the model :
 
--The premier league introduced the *5 substitution rule for the 2022/23 football season* which means that a lot of players who previously stayed on the bench in many matches will have more chances of playing.
+-The premier league introduced the **5 substitution rule for the 2022/23 football season** which means that a lot of players who previously stayed on the bench in many matches will have more chances of playing.
 
 -I observed the model does not think highly of new players coming into the league.
