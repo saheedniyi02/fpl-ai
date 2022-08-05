@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import warnings
 from config import leak_columns
 
@@ -82,9 +83,9 @@ y_val = target["minutes"].loc[y_val.index]
 model.fit(x, y)
 
 print(confusion_matrix(model.predict(val), y_val))
-print(accuracy_score(model.predict(val), y_val))
+print(f"Accuracy score {accuracy_score(model.predict(val), y_val)}")
 
-print(f1_score(model.predict(val), y_val))
+print(f"f1 score: {f1_score(model.predict(val), y_val)}")
 
 test_copy["minutes"] = model.predict(test_gkp.drop(leak_columns, axis=1))
 test_copy[leak_columns + ["minutes"]].to_csv(
@@ -146,8 +147,10 @@ model = Pipeline(
 )
 
 model.fit(x, y)
-print(mean_squared_error(model.predict(val), y_val))
 print(mean_absolute_error(model.predict(val), y_val))
+print(
+    f"Root Mean Squared Error {np.sqrt(mean_squared_error(model.predict(val), y_val))}"
+)
 test_gkp["points"] = model.predict(test_gkp.drop(leak_columns, axis=1))
 
 print(test_gkp["points"].sort_values(ascending=False))
@@ -209,9 +212,9 @@ x, val, y, y_val = train_test_split(
 model.fit(x, y)
 
 print(confusion_matrix(model.predict(val), y_val))
-print(accuracy_score(model.predict(val), y_val))
+print(f"Accuracy score {accuracy_score(model.predict(val), y_val)}")
 
-print(f1_score(model.predict(val), y_val))
+print(f"f1 score: {f1_score(model.predict(val), y_val)}")
 
 test_copy["minutes"] = model.predict(test_def.drop(leak_columns, axis=1))
 test_copy[leak_columns + ["minutes"]].to_csv("predicted_dataset/defenders_minutes.csv")
@@ -275,8 +278,10 @@ y_val = target["total_points"].loc[y_val.index]
 
 model.fit(x, y)
 
-print(mean_squared_error(model.predict(val), y_val))
 print(mean_absolute_error(model.predict(val), y_val))
+print(
+    f"Root Mean Squared Error {np.sqrt(mean_squared_error(model.predict(val), y_val))}"
+)
 test_def["points"] = model.predict(test_def.drop(leak_columns, axis=1))
 print(test_def["points"].sort_values(ascending=False))
 
@@ -340,9 +345,9 @@ y_val = target["minutes"].loc[y_val.index]
 model.fit(x, y)
 
 print(confusion_matrix(model.predict(val), y_val))
-print(accuracy_score(model.predict(val), y_val))
+print(f"Accuracy score {accuracy_score(model.predict(val), y_val)}")
 
-print(f1_score(model.predict(val), y_val))
+print(f"f1 score: {f1_score(model.predict(val), y_val)}")
 
 test_copy["minutes"] = model.predict(test_mid.drop(leak_columns, axis=1))
 test_copy[leak_columns + ["minutes"]].to_csv(
@@ -401,8 +406,10 @@ y = target["total_points"].loc[y.index]
 y_val = target["total_points"].loc[y_val.index]
 
 model.fit(x, y)
-print(mean_squared_error(model.predict(val), y_val))
 print(mean_absolute_error(model.predict(val), y_val))
+print(
+    f"Root Mean Squared Error {np.sqrt(mean_squared_error(model.predict(val), y_val))}"
+)
 test_mid["points"] = model.predict(test_mid.drop(leak_columns, axis=1))
 
 print(test_mid["points"].sort_values(ascending=False))
@@ -472,9 +479,8 @@ y_val = target["minutes"].loc[y_val.index]
 model.fit(x, y)
 
 print(confusion_matrix(model.predict(val), y_val))
-print(accuracy_score(model.predict(val), y_val))
-
-print(f1_score(model.predict(val), y_val))
+print(f"Accuracy score {accuracy_score(model.predict(val), y_val)}")
+print(f"f1 score: {f1_score(model.predict(val), y_val)}")
 
 test_copy["minutes"] = model.predict(test_fwd.drop(leak_columns, axis=1))
 test_copy[leak_columns + ["minutes"]].to_csv("predicted_dataset/forwards_minutes.csv")
@@ -536,8 +542,10 @@ model = Pipeline(
 )
 
 model.fit(x, y)
-print(mean_squared_error(model.predict(val), y_val))
 print(mean_absolute_error(model.predict(val), y_val))
+print(
+    f"Root Mean Squared Error {np.sqrt(mean_squared_error(model.predict(val), y_val))}"
+)
 test_fwd["points"] = model.predict(test_fwd.drop(leak_columns, axis=1))
 
 print(test_fwd["points"].sort_values(ascending=False))
