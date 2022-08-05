@@ -1,23 +1,21 @@
-# fpl-ai
-A system that predicts fpl points of players
 
-MACHINE LEARNING + Fantasy Premier league (@fpl__ai)
+## MACHINE LEARNING + Fantasy Premier league ([@fpl__ai](https://twitter.com/fpl__AI))
 
-Can machine learning models be used to  predict FPL points of players?
+#### Can machine learning models be used to  predict FPL points of players?
 
 I decided to build a machine learning project to check if this is possible, and to check the quality of the predictions. A twitter account created to monitor the results of the model can be found here .
 
 Source code can be found here
 
-Data used?
+#### Data used?
 
-Finding FPL data was pretty hard for me at first , I checked data from Opta stats and any popular football stats platform you could think of but I couldn't get, after searching deeply I came across a GitHub repository for FPL data and thankfully the data had FPL data from 2016/17. I also discovered that FPL has an API that gives access to statistics, for the current season.
+Finding FPL data was pretty hard for me at first , I checked data from Opta stats and any popular football stats platform you could think of but I couldn't get, after searching deeply I came across a [GitHub repository for FPL data](https://github.com/vaastav/Fantasy-Premier-League) and thankfully the data had FPL data from 2016/17. I also discovered that FPL has an [API](https://medium.com/@frenzelts/fantasy-premier-league-api-endpoints-a-detailed-guide-acbd5598eb19) that gives access to fantasy football data, for the current season.
 
 Data from the github repository was used to train the model, the fpl API will be used to get data for every gameweek (Gameweek 1 data already collected) in the current season.
 
-Data Cleaning and data preparation:
+#### Data Cleaning and data preparation:
 
-Train Data
+#### Train Data
 
 Although the FPL repository has data from 2016/17, I discovered there were many missing Gameweeks for the 2016/17, 2017/18, 2018/19,2019/20 seasons respectively.
 
@@ -26,58 +24,65 @@ So I used only the 2020/21 and 2021/22 data, although there were some missing Ga
 The data in the columns were presented in such a way that each column has information and statistics in a matchday for every player and the "total_points" from that match day is the target I am interested in.
 
 
-Data wrangling done:
-I dropped rows with duplicate values of name,season and gameweek.
-I extracted gameweek values from only 2020/21 and 2021/22 seasons.
-I also arranged the columns in ascending order of “name” and “kickoff_time” such that consecutive matches by a player will be grouped together, in ascending order of the dates.
-I created a new feature which checks the result of the current match (whether a win,draw or loss).
-I converted the minutes column to a categorical column, of class 1 if the player played and class 0 if the player didn't play.
-I created a new feature that checks if a player receives bonus points or not for a particular match and I dropped the previous “bonus” feature.
-I added new features from the total stats by a player from the previous season (goals_scored,assists,,clean_sheets, total_points, threats and other important features ) and team (last season’s position), new players to the league will have missing values for those columns, newly promoted teams will have a position of 20.
-I splitted the dataset into each position, (Goalkeepers, defenders, midfielders and forwards).
+#### Data wrangling done:
+-I dropped rows with duplicate values of name,season and gameweek.
 
-I created two types of features; long term and short term features, the features were numpy arrays. The array contains the values of a particular stats from previous match days, the long term stats feature considered the last 9 features prior to every match day in the datapoints, the short term stats considered the last 3 matches.
+-I extracted gameweek values from only 2020/21 and 2021/22 seasons.
 
-The aim of this feature is to capture the players form, short term and long term.
+-I also arranged the columns in ascending order of “name” and “kickoff_time” such that consecutive matches by a player will be grouped together, in ascending order of the dates.
 
-I calculated the mean, standard deviation and mode of some of these lists ,lists that were empty(from the first match in a season) were given values of -1 , and then I dropped the long term and short term features.
-I also dropped the important results/ columns from the current Gameweek I’m trying to predict on, this is to prevent any possible data leakage when building the model..
-I also dropped the name and team features, to ensure that the model only makes predictions based on the form of players and not on names of players and teams.
+-I created a new feature which checks the result of the current match (whether a win,draw or loss).
 
-I did almost the same cleaning on the test dataset (data from gameweek 1 of the new season) also.
+-I converted the minutes column to a categorical column, of class 1 if the player played and class 0 if the player didn't play.
 
-Train test split:
+-I created a new feature that checks if a player receives bonus points or not for a particular match and I dropped the previous “bonus” feature.
+
+-I added new features from the total stats by a player from the previous season (goals_scored,assists,,clean_sheets, total_points, threats and other important features ) and team (last season’s position), new players to the league will have missing values for those columns, newly promoted teams will have a position of 20.
+
+-I splitted the dataset into each position, (Goalkeepers, defenders, midfielders and forwards).
+
+-I created two types of features; long term and short term features, the features were numpy arrays. The array contains the values of a particular stats from previous match days, the long term stats feature considered the last 9 features prior to every match day in the datapoints, the short term stats considered the last 3 matches.
+
+The aim of this feature is to capture the **players form, short term and long term.**
+
+-I calculated the mean, standard deviation and mode of some of these lists ,lists that were empty(from the first match in a season) were given values of -1 , and then I dropped the long term and short term features.
+
+-I also dropped the important results/ columns from the current Gameweek I’m trying to predict on, this is to prevent any possible data leakage when building the model. I dropped the name and team features, to ensure that the model only makes predictions based on the form of players and not on names of players and teams.
+
+-I did almost the same cleaning on the test dataset (data from gameweek 1 of the new season) also.
+
+#### Train test split:
 I splitted the data based on the gameweeks to ensure all gameweeks are well represented in the train and test results.
 
-Modeling
+#### Modeling
 
-I built 2 different models for each position (Goalkeepers, defenders, midfielders and forwards).
+I built **2 different models** for each position **(Goalkeepers, defenders, midfielders and forwards).**
 
-The first model is a classification model that predicts whether a player will start or not.
+The **first model is a classification model that predicts whether a player will start or not.**
 
-The second model is a regression model that predicts the total points of players that played.
-The reason for this approach is a lot of players don’t play games at all and just predicting the points of all the players directly means our test dataset will have many 0’s which will strongly affect the quality of our regression model.
+The **second model is a regression model that predicts the total points of players that played.**
+The **reason for this approach is a lot of players don’t play games at all ** and just predicting the points of all the players directly means our test dataset will have many **0’s which will strongly affect the quality of our regression model.**
 
-Goalkeeper models: Random Forest Classifier and Random Forest Regressor.
+**Goalkeeper models**: Random Forest Classifier and Random Forest Regressor.
 Evaluation results.
 Accuracy_score: 0.94
 F1_score :0.89
 Mean_squared_error:2.801 points.
 
-Defender models: Random Forest Classifier and Gradient Boosting Regressor.
+**Defender models**: Random Forest Classifier and Gradient Boosting Regressor.
 Accuracy score: 0.82
 f1 score: 0.78
 Root_mean_squared_error:  2.718.
 
 
-Midfielder models: Random Forest Classifier and Random Forest Regressor.
+**Midfielder models**: Random Forest Classifier and Random Forest Regressor.
 Evaluation results.
 Accuracy score: 0.82
 f1 score: 0.82
 Root_mean_squared_error: 2.700
 
 
-Forwards models: Random Forest Classifier and Gradient Boosting Regressor.
+**Forwards models**: Random Forest Classifier and Gradient Boosting Regressor.
 Evaluation results.
 Accuracy_score: 0.82
 F1_score :  0.79
@@ -86,18 +91,18 @@ Mean_squared_error: 3.057
 
 
 
-PLOTS
-I scaled down the predicted points from the model into values between 0 and 1, I then created bar plots for the top 10 players (with the highest predicted points) in each position, using plotly.
+#### PLOTS
+I scaled down the predicted points from the model **into values between 0 and 1**, I then created **bar plots** for the top 10 players (with the highest predicted points) in each position, using **plotly**.
 
 
 
 
 
-Building my team: 
+ #### Building my team: 
 
-I used PuLP,a linear optimization and discrete programming package in python, to build my team (credits to this article ).
+I used **PuLP,a linear optimization and discrete programming package in python, to build my team (credits to this [article](https://towardsdatascience.com/how-to-build-a-fantasy-premier-league-team-with-data-science-f01283281236?gi=5bfd5d33d2f7) ).**
 
-I built my team obeying the FPL constraints.
+I built my team following the **FPL constraints.**
 2 goalkeepers,5 defenders, 5 midfielders and 3 forwards.
 A team value of maximum of $100 , I used $99 though, the $1 Extra is reserved to make future transfers easier.
 Maximum of 3 players from each team.
@@ -105,9 +110,9 @@ Maximum of 3 players from each team.
 The predictions for gameweek 1 can be seen below.
 
 
-I intend on making predictions for every game week and I will be documenting the models prediction here @fpl__AI.
+#### I intend on making predictions for every game week and I will be documenting the models prediction here @fpl__AI.
 
-Flaws of the model:
+#### Flaws of the model:
 
 The premier league introduced the 5 substitution rule for the 2022/23 football season the means that a lot of players who previously stayed on the bench in many matches will have more chances of playing.
 
