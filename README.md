@@ -3,7 +3,7 @@
 
 #### Can machine learning models be used to  predict FPL points of players?
 
-I decided to build a machine learning project to check if this is possible, and to check the quality of the predictions. A twitter account created to monitor the results of the model can be found here .
+I decided to build a machine learning project to check if this is possible, and to check the quality of the predictions. A twitter account created to monitor the results of the model can be found [here](https://twitter.com/fpl__AI) .
 
 Source code can be found [here](https://github.com/saheedniyi02/fpl-ai) <br>
 
@@ -106,11 +106,14 @@ Forwards
 I used **PuLP,a linear optimization and discrete programming package in python, to build my team (credits to this [article](https://towardsdatascience.com/how-to-build-a-fantasy-premier-league-team-with-data-science-f01283281236?gi=5bfd5d33d2f7) ).**
 
 I built my team following the **FPL constraints.**
-2 goalkeepers,5 defenders, 5 midfielders and 3 forwards.
-A team value of maximum of $100 , I used $99 though, the $1 Extra is reserved to make future transfers easier.
-Maximum of 3 players from each team.
+-2 goalkeepers,5 defenders, 5 midfielders and 3 forwards.
+-A team value of maximum of $100 , I used $99 though, the $1 Extra is reserved to make future transfers easier.
+-Maximum of 3 players from each team.
+-The team that had the highest total predicted points
 
-The predictions for gameweek 1 can be seen below.
+**The team selections for gameweek 1 can be seen below.**
+![Teams](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/Screenshot_20220805-104913.png)
+![Starting line up](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/Screenshot_20220805-104933.png)
 
 
 #### I intend on making predictions for every game week and I will be documenting the models prediction here @fpl__AI.
