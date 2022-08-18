@@ -1,82 +1,90 @@
 index,name,team_x,points,value
-Matt Doherty2022-08-06 14:00:00+00:00,Matt Doherty,Spurs,9.039116249855077,50
-Joel Matip2022-08-06 11:30:00+00:00,Joel Matip,Liverpool,6.249602402885915,60
-Virgil van Dijk2022-08-06 11:30:00+00:00,Virgil van Dijk,Liverpool,5.868925662067602,65
-Cristian Romero2022-08-06 14:00:00+00:00,Cristian Romero,Spurs,5.800210089781991,50
-Trent Alexander-Arnold2022-08-06 11:30:00+00:00,Trent Alexander-Arnold,Liverpool,5.785298418424503,75
-Ben Chilwell2022-08-06 16:30:00+00:00,Ben Chilwell,Chelsea,5.450266075739727,60
-Davinson Sánchez2022-08-06 14:00:00+00:00,Davinson Sánchez,Spurs,5.414089680438783,45
-Andrew Robertson2022-08-06 11:30:00+00:00,Andrew Robertson,Liverpool,5.336389019954161,70
-Emerson Leite de Souza Junior2022-08-06 14:00:00+00:00,Emerson Leite de Souza Junior,Spurs,5.2058399728523375,50
-Victor Lindelöf2022-08-07 13:00:00+00:00,Victor Lindelöf,Man Utd,5.12655825516249,45
-Raphaël Varane2022-08-07 13:00:00+00:00,Raphaël Varane,Man Utd,4.964591353809502,50
-Diogo Dalot Teixeira2022-08-07 13:00:00+00:00,Diogo Dalot Teixeira,Man Utd,4.88906097141985,45
-Harry Maguire2022-08-07 13:00:00+00:00,Harry Maguire,Man Utd,4.880216214125155,50
-Timothy Castagne2022-08-07 13:00:00+00:00,Timothy Castagne,Leicester,4.8793023863269545,45
-Trevoh Chalobah2022-08-06 16:30:00+00:00,Trevoh Chalobah,Chelsea,4.828072315469128,50
-Liam Cooper2022-08-06 14:00:00+00:00,Liam Cooper,Leeds,4.733035207842124,45
-Luke Shaw2022-08-07 13:00:00+00:00,Luke Shaw,Man Utd,4.666885814795655,50
-Alex Telles2022-08-07 13:00:00+00:00,Alex Telles,Man Utd,4.644273746875755,50
-Sergio Reguilón2022-08-06 14:00:00+00:00,Sergio Reguilón,Spurs,4.634018511784024,45
-Luke Thomas2022-08-07 13:00:00+00:00,Luke Thomas,Leicester,4.573094122593661,45
-Tyrone Mings2022-08-06 14:00:00+00:00,Tyrone Mings,Aston Villa,4.413784292558369,45
-Matty Cash2022-08-06 14:00:00+00:00,Matty Cash,Aston Villa,4.40884817494353,50
-Pascal Struijk2022-08-06 14:00:00+00:00,Pascal Struijk,Leeds,4.3019945774108255,45
-Aaron Wan-Bissaka2022-08-07 13:00:00+00:00,Aaron Wan-Bissaka,Man Utd,4.238832927784222,45
-César Azpilicueta2022-08-06 16:30:00+00:00,César Azpilicueta,Chelsea,4.233646851080088,50
-Ezri Konsa Ngoyo2022-08-06 14:00:00+00:00,Ezri Konsa Ngoyo,Aston Villa,4.196554647367223,45
-Eric Dier2022-08-06 14:00:00+00:00,Eric Dier,Spurs,4.079902242923806,50
-João Cancelo2022-08-07 15:30:00+00:00,João Cancelo,Man City,3.986809024755569,70
-Luke Ayling2022-08-06 14:00:00+00:00,Luke Ayling,Leeds,3.98081969371668,45
-Kurt Zouma2022-08-07 15:30:00+00:00,Kurt Zouma,West Ham,3.9692759525906607,45
-Daniel Amartey2022-08-07 13:00:00+00:00,Daniel Amartey,Leicester,3.8878075005058235,45
-Kieran Tierney2022-08-05 19:00:00+00:00,Kieran Tierney,Arsenal,3.766816758861324,50
-Vladimir Coufal2022-08-07 15:30:00+00:00,Vladimir Coufal,West Ham,3.748338506404943,45
-Takehiro Tomiyasu2022-08-05 19:00:00+00:00,Takehiro Tomiyasu,Arsenal,3.626724718362653,45
-Çaglar Söyüncü2022-08-07 13:00:00+00:00,Çaglar Söyüncü,Leicester,3.580473071854419,45
-Diego Llorente2022-08-06 14:00:00+00:00,Diego Llorente,Leeds,3.546405658246447,45
-Sergi Canós Tenés2022-08-07 13:00:00+00:00,Sergi Canós Tenés,Brentford,3.4526702399372726,50
-Aaron Cresswell2022-08-07 15:30:00+00:00,Aaron Cresswell,West Ham,3.2248790675590566,50
-Reece James2022-08-06 16:30:00+00:00,Reece James,Chelsea,3.2083406646511476,60
-Thiago Emiliano da Silva2022-08-06 16:30:00+00:00,Thiago Emiliano da Silva,Chelsea,3.156015985994412,55
-Lucas Digne2022-08-06 14:00:00+00:00,Lucas Digne,Aston Villa,3.1457941725637237,50
-Craig Dawson2022-08-07 15:30:00+00:00,Craig Dawson,West Ham,3.140161587159708,50
-Pontus Jansson2022-08-07 13:00:00+00:00,Pontus Jansson,Brentford,3.0374434800489754,45
-Jamaal Lascelles2022-08-06 14:00:00+00:00,Jamaal Lascelles,Newcastle,2.9975160768161837,45
-Nélson Cabral Semedo2022-08-06 14:00:00+00:00,Nélson Cabral Semedo,Wolves,2.869193440817752,50
-Stuart Dallas2022-08-06 14:00:00+00:00,Stuart Dallas,Leeds,2.8266120010260933,50
-James Tarkowski2022-08-06 16:30:00+00:00,James Tarkowski,Everton,2.761953026008838,45
-Marcos Alonso2022-08-06 16:30:00+00:00,Marcos Alonso,Chelsea,2.5135462374596393,55
-Kristoffer Ajer2022-08-07 13:00:00+00:00,Kristoffer Ajer,Brentford,2.501491515667596,45
-Ethan Pinnock2022-08-07 13:00:00+00:00,Ethan Pinnock,Brentford,2.472046748347379,45
-Rayan Aït-Nouri2022-08-06 14:00:00+00:00,Rayan Aït-Nouri,Wolves,2.4173201770641604,45
-Kyle Walker2022-08-07 15:30:00+00:00,Kyle Walker,Man City,2.3903329811045957,50
-Fabian Schär2022-08-06 14:00:00+00:00,Fabian Schär,Newcastle,2.350660917124249,45
-Mohammed Salisu2022-08-06 14:00:00+00:00,Mohammed Salisu,Southampton,2.3359106213499965,45
-Marc Cucurella Saseta2022-08-07 13:00:00+00:00,Marc Cucurella Saseta,Brighton,2.3357283580836556,50
-Conor Coady2022-08-06 14:00:00+00:00,Conor Coady,Wolves,2.3163461723098138,50
-Tyrick Mitchell2022-08-05 19:00:00+00:00,Tyrick Mitchell,Crystal Palace,2.2942023650838173,45
-Steve Cook2022-08-06 14:00:00+00:00,Steve Cook,Nott'm Forest,2.2056345783709634,45
-Ben Godfrey2022-08-06 16:30:00+00:00,Ben Godfrey,Everton,2.176274028581233,45
-Kyle Walker-Peters2022-08-06 14:00:00+00:00,Kyle Walker-Peters,Southampton,2.1746460016286235,45
-Aymeric Laporte2022-08-07 15:30:00+00:00,Aymeric Laporte,Man City,2.111608950494727,60
-Rúben Gato Alves Dias2022-08-07 15:30:00+00:00,Rúben Gato Alves Dias,Man City,2.096996017747134,60
-Joel Ward2022-08-05 19:00:00+00:00,Joel Ward,Crystal Palace,2.037579411712967,45
-Michael Keane2022-08-06 16:30:00+00:00,Michael Keane,Everton,1.989886208804813,45
-Dan Burn2022-08-06 14:00:00+00:00,Dan Burn,Newcastle,1.9585774815183234,45
-Jan Bednarek2022-08-06 14:00:00+00:00,Jan Bednarek,Southampton,1.9394870927351613,45
-Marc Guéhi2022-08-05 19:00:00+00:00,Marc Guéhi,Crystal Palace,1.9014747924841986,45
-Rico Henry2022-08-07 13:00:00+00:00,Rico Henry,Brentford,1.88438617921525,45
-Tosin Adarabioyo2022-08-06 11:30:00+00:00,Tosin Adarabioyo,Fulham,1.8719993192758984,45
-Matt Targett2022-08-06 14:00:00+00:00,Matt Targett,Newcastle,1.8081302917478284,50
-Mason Holgate2022-08-06 16:30:00+00:00,Mason Holgate,Everton,1.7691090494749042,45
-Max Kilman2022-08-06 14:00:00+00:00,Max Kilman,Wolves,1.7409578986087975,45
-Joachim Andersen2022-08-05 19:00:00+00:00,Joachim Andersen,Crystal Palace,1.6324817793233417,45
-Ben Mee2022-08-07 13:00:00+00:00,Ben Mee,Brentford,1.6260096373247608,45
-Antonee Robinson2022-08-06 11:30:00+00:00,Antonee Robinson,Fulham,1.4371653070898924,45
-Seamus Coleman2022-08-06 16:30:00+00:00,Seamus Coleman,Everton,1.4142739491515084,45
-Tariq Lamptey2022-08-07 13:00:00+00:00,Tariq Lamptey,Brighton,1.2693426736701885,45
-Lewis Dunk2022-08-07 13:00:00+00:00,Lewis Dunk,Brighton,1.2642158319259624,45
-Tino Livramento2022-08-06 14:00:00+00:00,Tino Livramento,Southampton,1.238886557224068,45
-Kenny Tete2022-08-06 11:30:00+00:00,Kenny Tete,Fulham,1.1858813340282697,45
-Joël Veltman2022-08-07 13:00:00+00:00,Joël Veltman,Brighton,0.8041104776281235,45
+Ryan Sessegnon2022-08-14 15:30:00+00:00,Ryan Sessegnon,Spurs,7.610061050047755,45
+Joel Matip2022-08-15 19:00:00+00:00,Joel Matip,Liverpool,7.590128661253364,60
+João Cancelo2022-08-13 14:00:00+00:00,João Cancelo,Man City,7.2519706682551,70
+Virgil van Dijk2022-08-15 19:00:00+00:00,Virgil van Dijk,Liverpool,7.035281860750818,65
+Rico Henry2022-08-13 16:30:00+00:00,Rico Henry,Brentford,6.743870407203183,45
+Reece James2022-08-14 15:30:00+00:00,Reece James,Chelsea,6.579548513357788,60
+Lloyd Kelly2022-08-13 14:00:00+00:00,Lloyd Kelly,Bournemouth,6.574886321802153,45
+Rúben Gato Alves Dias2022-08-13 14:00:00+00:00,Rúben Gato Alves Dias,Man City,6.558951435797608,60
+Ben Chilwell2022-08-14 15:30:00+00:00,Ben Chilwell,Chelsea,6.285623715877691,60
+Andrew Robertson2022-08-15 19:00:00+00:00,Andrew Robertson,Liverpool,6.283614836637747,70
+Trent Alexander-Arnold2022-08-15 19:00:00+00:00,Trent Alexander-Arnold,Liverpool,6.1859670204101445,75
+Nathan Aké2022-08-13 14:00:00+00:00,Nathan Aké,Man City,6.077531482330478,50
+Kieran Trippier2022-08-13 14:00:00+00:00,Kieran Trippier,Newcastle,6.060654445221137,50
+Harry Maguire2022-08-13 16:30:00+00:00,Harry Maguire,Man Utd,5.93188535658916,50
+Kenny Tete2022-08-13 14:00:00+00:00,Kenny Tete,Fulham,5.711339541162969,45
+Rayan Aït-Nouri2022-08-13 14:00:00+00:00,Rayan Aït-Nouri,Wolves,5.709473240746449,45
+Pontus Jansson2022-08-13 16:30:00+00:00,Pontus Jansson,Brentford,5.56873390664994,45
+Kalidou Koulibaly2022-08-14 15:30:00+00:00,Kalidou Koulibaly,Chelsea,5.567884201510296,55
+Eric Dier2022-08-14 15:30:00+00:00,Eric Dier,Spurs,5.437206000058611,50
+César Azpilicueta2022-08-14 15:30:00+00:00,César Azpilicueta,Chelsea,5.375940448008117,50
+Chris Mepham2022-08-13 14:00:00+00:00,Chris Mepham,Bournemouth,5.375655963683292,45
+Rasmus Kristensen2022-08-13 14:00:00+00:00,Rasmus Kristensen,Leeds,5.297575005928489,50
+William Saliba2022-08-13 14:00:00+00:00,William Saliba,Arsenal,5.147832690575863,45
+Daniel Amartey2022-08-13 14:00:00+00:00,Daniel Amartey,Leicester,5.08573209985561,45
+Oleksandr Zinchenko2022-08-13 14:00:00+00:00,Oleksandr Zinchenko,Arsenal,5.012674133059224,51
+Antonee Robinson2022-08-13 14:00:00+00:00,Antonee Robinson,Fulham,5.01024009249915,45
+Ben Davies2022-08-15 19:00:00+00:00,Ben Davies,Liverpool,4.96614875820839,40
+Jan Bednarek2022-08-13 14:00:00+00:00,Jan Bednarek,Southampton,4.937012559208859,45
+Jonny Evans2022-08-13 14:00:00+00:00,Jonny Evans,Leicester,4.911926205052656,45
+Aaron Hickey2022-08-13 16:30:00+00:00,Aaron Hickey,Brentford,4.842659622939884,50
+Mohammed Salisu2022-08-13 14:00:00+00:00,Mohammed Salisu,Southampton,4.831956749778413,45
+Dan Burn2022-08-13 14:00:00+00:00,Dan Burn,Newcastle,4.823439361788193,45
+Lucas Digne2022-08-13 11:30:00+00:00,Lucas Digne,Aston Villa,4.805385495401971,50
+Gabriel dos Santos Magalhães2022-08-13 14:00:00+00:00,Gabriel dos Santos Magalhães,Arsenal,4.793893853406339,50
+Marc Cucurella Saseta2022-08-14 15:30:00+00:00,Marc Cucurella Saseta,Chelsea,4.755849363431846,50
+Emerson Leite de Souza Junior2022-08-14 15:30:00+00:00,Emerson Leite de Souza Junior,Spurs,4.737515020442568,50
+Matty Cash2022-08-13 11:30:00+00:00,Matty Cash,Aston Villa,4.735005714251271,50
+Matt Targett2022-08-13 14:00:00+00:00,Matt Targett,Newcastle,4.674957111106614,50
+Ivan Perišić2022-08-14 15:30:00+00:00,Ivan Perišić,Spurs,4.65959508308573,55
+Benjamin White2022-08-13 14:00:00+00:00,Benjamin White,Arsenal,4.619727585287383,45
+Tim Ream2022-08-13 14:00:00+00:00,Tim Ream,Fulham,4.600647176271502,45
+Luke Shaw2022-08-13 16:30:00+00:00,Luke Shaw,Man Utd,4.582925058651223,50
+Timothy Castagne2022-08-13 14:00:00+00:00,Timothy Castagne,Leicester,4.57175521255016,45
+Vitalii Mykolenko2022-08-13 11:30:00+00:00,Vitalii Mykolenko,Everton,4.493811937649822,45
+Tosin Adarabioyo2022-08-13 14:00:00+00:00,Tosin Adarabioyo,Fulham,4.4764843716246725,45
+Diogo Dalot Teixeira2022-08-13 16:30:00+00:00,Diogo Dalot Teixeira,Man Utd,4.448322216241747,45
+Ben Davies2022-08-14 15:30:00+00:00,Ben Davies,Spurs,4.397518412795139,50
+Robin Koch2022-08-13 14:00:00+00:00,Robin Koch,Leeds,4.383151636880793,45
+Aaron Cresswell2022-08-14 13:00:00+00:00,Aaron Cresswell,West Ham,4.374480953928954,50
+Ben Davies2022-08-14 15:30:00+00:00,Ben Davies,Spurs,4.3595053319098795,50
+Kieran Tierney2022-08-13 14:00:00+00:00,Kieran Tierney,Arsenal,4.359170392564018,50
+Diego Llorente2022-08-13 14:00:00+00:00,Diego Llorente,Leeds,4.215777571201231,45
+Adam Webster2022-08-13 14:00:00+00:00,Adam Webster,Brighton,4.171359735546511,45
+Jordan Zemura2022-08-13 14:00:00+00:00,Jordan Zemura,Bournemouth,4.08405279367303,45
+Mason Holgate2022-08-13 11:30:00+00:00,Mason Holgate,Everton,4.06855879669263,45
+Adam Smith2022-08-13 14:00:00+00:00,Adam Smith,Bournemouth,4.0575858152083075,45
+Nathan Collins2022-08-13 14:00:00+00:00,Nathan Collins,Wolves,3.931138055987827,45
+Lewis Dunk2022-08-13 14:00:00+00:00,Lewis Dunk,Brighton,3.872778781447053,45
+Cristian Romero2022-08-14 15:30:00+00:00,Cristian Romero,Spurs,3.8302775765730455,50
+Tyrick Mitchell2022-08-15 19:00:00+00:00,Tyrick Mitchell,Crystal Palace,3.747651875715121,45
+Diego Carlos Santos Silva2022-08-13 11:30:00+00:00,Diego Carlos Santos Silva,Aston Villa,3.7443999391250333,50
+Ben Johnson2022-08-14 13:00:00+00:00,Ben Johnson,West Ham,3.706780352613981,45
+Pascal Struijk2022-08-13 14:00:00+00:00,Pascal Struijk,Leeds,3.563661792013065,45
+Jonathan Castro Otto2022-08-13 14:00:00+00:00,Jonathan Castro Otto,Wolves,3.551167819213114,45
+Neco Williams2022-08-14 13:00:00+00:00,Neco Williams,Nott'm Forest,3.5182294775344203,40
+Romain Perraud2022-08-13 14:00:00+00:00,Romain Perraud,Southampton,3.436007197138644,45
+Vladimir Coufal2022-08-14 13:00:00+00:00,Vladimir Coufal,West Ham,3.3723329410758023,45
+Kurt Zouma2022-08-14 13:00:00+00:00,Kurt Zouma,West Ham,3.346218779272786,45
+Wesley Fofana2022-08-13 14:00:00+00:00,Wesley Fofana,Leicester,3.3338027723811035,45
+Harry Toffolo2022-08-14 13:00:00+00:00,Harry Toffolo,Nott'm Forest,3.0189862357804214,45
+Rúben Nascimento Vinagre2022-08-13 11:30:00+00:00,Rúben Nascimento Vinagre,Everton,3.0013228024146383,45
+Thiago Emiliano da Silva2022-08-14 15:30:00+00:00,Thiago Emiliano da Silva,Chelsea,2.8686348999324967,55
+Ben Mee2022-08-13 16:30:00+00:00,Ben Mee,Brentford,2.8221713340125736,45
+Scott McKenna2022-08-14 13:00:00+00:00,Scott McKenna,Nott'm Forest,2.7560964895422226,45
+Ezri Konsa Ngoyo2022-08-13 11:30:00+00:00,Ezri Konsa Ngoyo,Aston Villa,2.751677171982035,45
+James Justin2022-08-13 14:00:00+00:00,James Justin,Leicester,2.7270841660441194,45
+Nathaniel Clyne2022-08-15 19:00:00+00:00,Nathaniel Clyne,Crystal Palace,2.604736102951532,45
+Marc Guéhi2022-08-15 19:00:00+00:00,Marc Guéhi,Crystal Palace,2.497248326978081,45
+James Tarkowski2022-08-13 11:30:00+00:00,James Tarkowski,Everton,2.0422137421865716,45
+Kyle Walker2022-08-13 14:00:00+00:00,Kyle Walker,Man City,1.9490754267223764,50
+Kyle Walker-Peters2022-08-13 14:00:00+00:00,Kyle Walker-Peters,Southampton,1.9453770938440165,45
+Nathan Patterson2022-08-13 11:30:00+00:00,Nathan Patterson,Everton,1.9278759377989363,40
+Joe Worrall2022-08-14 13:00:00+00:00,Joe Worrall,Nott'm Forest,1.7088703169463555,45
+Fabian Schär2022-08-13 14:00:00+00:00,Fabian Schär,Newcastle,1.6992041593658138,45
+Joachim Andersen2022-08-15 19:00:00+00:00,Joachim Andersen,Crystal Palace,1.403584081430345,45
+Max Kilman2022-08-13 14:00:00+00:00,Max Kilman,Wolves,1.3056732698285032,45
+Joël Veltman2022-08-13 14:00:00+00:00,Joël Veltman,Brighton,1.2979267040495928,45
+Moussa Niakhaté2022-08-14 13:00:00+00:00,Moussa Niakhaté,Nott'm Forest,1.285810865758482,45
+Lisandro Martínez2022-08-13 16:30:00+00:00,Lisandro Martínez,Man Utd,1.0124312380497673,45

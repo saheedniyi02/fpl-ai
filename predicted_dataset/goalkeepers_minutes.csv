@@ -1,53 +1,58 @@
 ,name,team_x,minutes
-1,Bernd Leno,Arsenal,0
-14,Aaron Ramsdale,Arsenal,1
-23,Matt Turner,Arsenal,0
-30,Emiliano Martínez Romero,Aston Villa,1
-34,Robin Olsen,Aston Villa,0
-72,Mark Travers,Bournemouth,0
-77,Will Dennis,Bournemouth,0
-82,David Raya Martin,Brentford,1
-101,Ellery Balcombe,Brentford,0
-104,Thomas Strakosha,Brentford,0
-107,Jason Steele,Brighton,0
-118,Robert Sánchez,Brighton,1
-138,Kepa Arrizabalaga,Chelsea,0
-152,Edouard Mendy,Chelsea,1
-159,Vicente Guaita,Crystal Palace,1
-169,Jack Butland,Crystal Palace,0
-182,Sam Johnstone,Crystal Palace,1
-183,Remi Matthews,Crystal Palace,0
-186,Asmir Begović,Everton,0
-192,Jordan Pickford,Everton,1
-217,Paulo Gazzaniga Farias,Fulham,0
-223,Marek Rodák,Fulham,0
-233,Kasper Schmeichel,Leicester,1
-239,Danny Ward,Leicester,0
-274,Kristoffer Klaesson,Leeds,0
-276,Illan Meslier,Leeds,1
-295,Alisson Ramses Becker,Liverpool,1
-303,Caoimhin Kelleher,Liverpool,0
-312,Adrián San Miguel del Castillo,Liverpool,0
-325,Ederson Santana de Moraes,Man City,1
-328,Zack Steffen,Man City,0
-341,Stefan Ortega Moreno,Man City,0
-343,Scott Carson,Man City,0
-345,David De Gea Quintana,Man Utd,1
-365,Tom Heaton,Man Utd,0
-372,Karl Darlow,Newcastle,0
-374,Martin Dubravka,Newcastle,1
-395,Nick Pope,Newcastle,1
-402,Brice Samba,Nott'm Forest,0
-418,Dean Henderson,Nott'm Forest,0
-422,Wayne Hennessey,Nott'm Forest,0
-428,Alex McCarthy,Southampton,0
-448,Mateusz Lis,Southampton,0
-449,Gavin Bazunu,Southampton,0
-451,Willy Caballero,Southampton,0
-453,Hugo Lloris,Spurs,1
-454,Fraser Forster,Spurs,0
-480,Brandon Austin,Spurs,0
-486,Lukasz Fabianski,West Ham,1
-504,Alphonse Areola,West Ham,0
-510,José Malheiro de Sá,Wolves,1
-524,Matija Šarkić,Wolves,0
+5,Aaron Ramsdale,Arsenal,1
+23,Adrián San Miguel del Castillo,Liverpool,0
+35,Alex McCarthy,Southampton,0
+47,Alisson Ramses Becker,Liverpool,1
+53,Alphonse Areola,West Ham,0
+91,Asmir Begović,Everton,0
+119,Bernd Leno,Fulham,0
+133,Brandon Austin,Spurs,0
+141,Brice Samba,Nott'm Forest,0
+163,Caoimhin Kelleher,Liverpool,0
+229,Daniel Iversen,Leicester,0
+235,Danny Ward,Leicester,0
+241,Darren Randolph,West Ham,0
+247,David De Gea Quintana,Man Utd,1
+249,David Raya Martin,Brentford,1
+253,Dean Henderson,Nott'm Forest,1
+295,Ederson Santana de Moraes,Man City,1
+297,Edouard Mendy,Chelsea,1
+299,Ellery Balcombe,Brentford,0
+315,Emiliano Martínez Romero,Aston Villa,1
+349,Fraser Forster,Spurs,0
+365,Gavin Bazunu,Southampton,1
+405,Hugo Lloris,Spurs,1
+415,Illan Meslier,Leeds,1
+425,Jack Butland,Crystal Palace,0
+437,Jackson Smith,Wolves,0
+495,Jason Steele,Brighton,0
+557,Jordan Pickford,Everton,1
+573,José Malheiro de Sá,Wolves,1
+603,Karl Darlow,Newcastle,0
+605,Kasper Schmeichel,Leicester,0
+615,Kepa Arrizabalaga,Chelsea,0
+629,Kjell Scherpen,Brighton,0
+637,Kristoffer Klaesson,Leeds,0
+691,Lukasz Fabianski,West Ham,1
+745,Marek Rodák,Fulham,0
+747,Mark Travers,Bournemouth,1
+749,Martin Dubravka,Newcastle,0
+763,Mateusz Lis,Southampton,0
+767,Matija Šarkić,Wolves,0
+777,Matt Turner,Arsenal,0
+844,Nick Pope,Newcastle,1
+851,Norberto Murara Neto,Bournemouth,0
+889,Paulo Gazzaniga Farias,Fulham,0
+921,Remi Matthews,Crystal Palace,0
+941,Robert Sánchez,Brighton,1
+947,Robin Olsen,Aston Villa,0
+987,Sam Johnstone,Crystal Palace,0
+995,Scott Carson,Man City,0
+1025,Stefan Ortega Moreno,Man City,0
+1059,Thomas Strakosha,Brentford,0
+1075,Tom Heaton,Man Utd,0
+1101,Vicente Guaita,Crystal Palace,1
+1113,Wayne Hennessey,Nott'm Forest,0
+1121,Will Dennis,Bournemouth,0
+1131,Willy Caballero,Southampton,0
+1147,Zack Steffen,Man City,0

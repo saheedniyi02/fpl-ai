@@ -1,195 +1,212 @@
 ,name,team_x,minutes
-0,Cédric Alves Soares,Arsenal,0
-4,Rob Holding,Arsenal,0
-7,Kieran Tierney,Arsenal,1
-9,Benjamin White,Arsenal,0
-13,Takehiro Tomiyasu,Arsenal,1
-15,Gabriel dos Santos Magalhães,Arsenal,0
-16,Nuno Varela Tavares,Arsenal,0
-19,Pablo Marí Villar,Arsenal,0
-25,William Saliba,Arsenal,0
-31,Calum Chambers,Aston Villa,0
-32,Lucas Digne,Aston Villa,1
-37,Kortney Hause,Aston Villa,0
-38,Tyrone Mings,Aston Villa,1
-42,Matty Cash,Aston Villa,1
-43,Ezri Konsa Ngoyo,Aston Villa,1
-49,Diego Carlos Santos Silva,Aston Villa,0
-55,Frédéric Guilbert,Aston Villa,0
-56,Ludwig Augustinsson,Aston Villa,0
-57,Adam Smith,Bournemouth,0
-59,Ryan Fredericks,Bournemouth,0
-65,Jack Stacey,Bournemouth,0
-71,Chris Mepham,Bournemouth,0
-73,Lloyd Kelly,Bournemouth,0
-76,Jordan Zemura,Bournemouth,0
-79,Pontus Jansson,Brentford,1
-83,Sergi Canós Tenés,Brentford,1
-85,Kristoffer Ajer,Brentford,1
-86,Rico Henry,Brentford,1
-91,Mads Roerslev Rasmussen,Brentford,0
-92,Mads Bech Sørensen,Brentford,0
-93,Ethan Pinnock,Brentford,1
-97,Charlie Goode,Brentford,0
-99,Dominic Thompson,Brentford,0
-102,Aaron Hickey,Brentford,0
-105,Ben Mee,Brentford,1
-110,Shane Duffy,Brighton,0
-111,Lewis Dunk,Brighton,1
-113,Adam Webster,Brighton,0
-114,Joël Veltman,Brighton,1
-117,Marc Cucurella Saseta,Brighton,1
-119,Tariq Lamptey,Brighton,1
-127,Haydon Roberts,Brighton,0
-132,César Azpilicueta,Chelsea,1
-133,Thiago Emiliano da Silva,Chelsea,1
-134,Marcos Alonso,Chelsea,1
-143,Robert Kenedy Nunes do Nascimento,Chelsea,0
-144,Ben Chilwell,Chelsea,1
-146,Trevoh Chalobah,Chelsea,1
-148,Malang Sarr,Chelsea,0
-151,Reece James,Chelsea,1
-156,Ethan Ampadu,Chelsea,0
-158,Kalidou Koulibaly,Chelsea,0
-160,James Tomkins,Crystal Palace,0
-163,Joel Ward,Crystal Palace,1
-164,Nathaniel Clyne,Crystal Palace,0
-172,Joachim Andersen,Crystal Palace,1
-174,Marc Guéhi,Crystal Palace,1
-177,Tyrick Mitchell,Crystal Palace,1
-181,Nathan Ferguson,Crystal Palace,0
-188,Seamus Coleman,Everton,1
-190,Michael Keane,Everton,1
-198,Yerry Mina,Everton,0
-202,Mason Holgate,Everton,1
-203,Ben Godfrey,Everton,1
-204,Vitalii Mykolenko,Everton,0
-206,Jarrad Branthwaite,Everton,0
-207,Nathan Patterson,Everton,0
-208,Niels Nkounkou,Everton,0
-209,James Tarkowski,Everton,1
-211,Tim Ream,Fulham,0
-216,Joe Bryan,Fulham,0
-218,Terence Kongolo,Fulham,0
-219,Tosin Adarabioyo,Fulham,1
-225,Kenny Tete,Fulham,1
-227,Antonee Robinson,Fulham,1
-234,Jonny Evans,Leicester,0
-235,Ryan Bertrand,Leicester,0
-238,Jannik Vestergaard,Leicester,0
-241,Ricardo Barbosa Pereira,Leicester,0
-242,Daniel Amartey,Leicester,1
-243,Timothy Castagne,Leicester,1
-252,Çaglar Söyüncü,Leicester,1
-253,James Justin,Leicester,0
-255,Luke Thomas,Leicester,1
-257,Wesley Fofana,Leicester,0
-258,Lewis Brunt,Leicester,0
-259,Liam Cooper,Leeds,1
-260,Luke Ayling,Leeds,1
-264,Stuart Dallas,Leeds,1
-266,Diego Llorente,Leeds,1
-268,Robin Koch,Leeds,0
-273,Pascal Struijk,Leeds,1
-277,Junior Firpo Adames,Leeds,0
-281,Leo Fuhr Hjelde,Leeds,0
-282,Rasmus Kristensen,Leeds,0
-290,Joel Matip,Liverpool,1
-294,Virgil van Dijk,Liverpool,1
-298,Andrew Robertson,Liverpool,1
-299,Trent Alexander-Arnold,Liverpool,1
-300,Joseph Gomez,Liverpool,0
-304,Ibrahima Konaté,Liverpool,0
-306,Konstantinos Tsimikas,Liverpool,0
-311,Calvin Ramsay,Liverpool,0
-313,Rhys Williams,Liverpool,0
-314,Ben Davies,Liverpool,0
-315,Ben Davies,Liverpool,0
-460,Ben Davies,Spurs,0
-461,Ben Davies,Spurs,0
-316,Sepp van den Berg,Liverpool,0
-317,Nathaniel Phillips,Liverpool,0
-318,Kyle Walker,Man City,1
-321,John Stones,Man City,0
-324,João Cancelo,Man City,1
-326,Nathan Aké,Man City,0
-327,Aymeric Laporte,Man City,1
-330,Rúben Gato Alves Dias,Man City,1
-331,Oleksandr Zinchenko,Man City,0
-338,Luke Mbete-Tabu,Man City,0
-339,Josh Wilson-Esbrand,Man City,0
-346,Phil Jones,Man Utd,0
-347,Raphaël Varane,Man Utd,1
-348,Harry Maguire,Man Utd,1
-350,Luke Shaw,Man Utd,1
-352,Alex Telles,Man Utd,1
-355,Victor Lindelöf,Man Utd,1
-357,Eric Bailly,Man Utd,0
-359,Aaron Wan-Bissaka,Man Utd,1
-360,Diogo Dalot Teixeira,Man Utd,1
-361,Brandon Williams,Man Utd,0
-366,Tyrell Malacia,Man Utd,0
-369,Matt Ritchie,Newcastle,0
-370,Federico Fernández,Newcastle,0
-371,Ciaran Clark,Newcastle,0
-376,Kieran Trippier,Newcastle,0
-377,Dan Burn,Newcastle,1
-379,Jamaal Lascelles,Newcastle,1
-381,Paul Dummett,Newcastle,0
-382,Javier Manquillo Gaitán,Newcastle,0
-383,Emil Krafth,Newcastle,0
-385,Fabian Schär,Newcastle,1
-386,Matt Targett,Newcastle,1
-391,Jamal Lewis,Newcastle,0
-396,Sven Botman,Newcastle,0
-397,Neco Williams,Nott'm Forest,0
-399,Steve Cook,Nott'm Forest,1
-405,Scott McKenna,Nott'm Forest,0
-406,Mohamed Dräger,Nott'm Forest,0
-408,Joe Worrall,Nott'm Forest,0
-409,Jonathan Panzo,Nott'm Forest,0
-412,Richie Laryea,Nott'm Forest,0
-413,Loïc Mbe Soh,Nott'm Forest,0
-419,Giulian Biancone,Nott'm Forest,0
-420,Moussa Niakhaté,Nott'm Forest,0
-421,Omar Richards,Nott'm Forest,0
-423,Harry Toffolo,Nott'm Forest,0
-431,Jack Stephens,Southampton,0
-436,Kyle Walker-Peters,Southampton,1
-437,Jan Bednarek,Southampton,1
-440,Lyanco Silveira Neves Vojnovic,Southampton,0
-441,Yan Valery,Southampton,0
-444,Romain Perraud,Southampton,0
-446,Tino Livramento,Southampton,1
-447,Mohammed Salisu,Southampton,1
-450,Armel Bella-Kotchap,Southampton,0
-457,Matt Doherty,Spurs,1
-458,Eric Dier,Spurs,1
-464,Davinson Sánchez,Spurs,1
-465,Ryan Sessegnon,Spurs,0
-467,Sergio Reguilón,Spurs,1
-468,Japhet Tanganga,Spurs,0
-471,Joe Rodon,Spurs,0
-472,Cristian Romero,Spurs,1
-474,Emerson Leite de Souza Junior,Spurs,1
-477,Ivan Perišić,Spurs,0
-484,Clément Lenglet,Spurs,0
-485,Djed Spence,Spurs,0
-487,Angelo Ogbonna,West Ham,0
-488,Aaron Cresswell,West Ham,1
-490,Craig Dawson,West Ham,1
-492,Kurt Zouma,West Ham,1
-493,Arthur Masuaku,West Ham,0
-494,Vladimir Coufal,West Ham,1
-501,Issa Diop,West Ham,0
-502,Ben Johnson,West Ham,0
-503,Nayef Aguerd,West Ham,0
-506,Willy Boly,Wolves,0
-507,Conor Coady,Wolves,1
-509,Jonathan Castro Otto,Wolves,0
-514,Nélson Cabral Semedo,Wolves,1
-516,Max Kilman,Wolves,1
-519,Rayan Aït-Nouri,Wolves,1
-521,Toti António Gomes,Wolves,0
-526,Yerson Mosquera Valdelamar,Wolves,0
-528,Nathan Collins,Wolves,0
+1,Aaron Cresswell,West Ham,1
+3,Aaron Hickey,Brentford,1
+7,Aaron Wan-Bissaka,Man Utd,0
+17,Adam Smith,Bournemouth,1
+19,Adam Webster,Brighton,1
+41,Alex Telles,Man Utd,0
+59,Andrew Robertson,Liverpool,1
+65,Angelo Ogbonna,West Ham,0
+75,Antonee Robinson,Fulham,1
+83,Armel Bella-Kotchap,Southampton,0
+87,Arthur Masuaku,West Ham,0
+89,Ashley Young,Aston Villa,0
+93,Aymeric Laporte,Man City,0
+97,Ben Chilwell,Chelsea,1
+102,Ben Davies,Spurs,1
+103,Ben Davies,Spurs,1
+104,Ben Davies,Liverpool,0
+105,Ben Davies,Liverpool,1
+107,Ben Godfrey,Everton,0
+109,Ben Johnson,West Ham,1
+111,Ben Mee,Brentford,1
+115,Benjamin White,Arsenal,1
+135,Brandon Williams,Man Utd,0
+157,Calum Chambers,Aston Villa,0
+159,Calvin Ramsay,Liverpool,0
+169,Charlie Goode,Brentford,0
+177,Chris Mepham,Bournemouth,1
+179,Chris Richards,Crystal Palace,0
+191,Ciaran Clark,Newcastle,0
+193,Clément Lenglet,Spurs,0
+195,Cody Drameh,Leeds,0
+201,Conor Coady,Everton,0
+207,Craig Dawson,West Ham,0
+209,Cristian Romero,Spurs,1
+217,Cédric Alves Soares,Arsenal,0
+219,César Azpilicueta,Chelsea,1
+221,Dan Burn,Newcastle,1
+225,Daniel Amartey,Leicester,1
+251,Davinson Sánchez,Spurs,0
+267,Diego Carlos Santos Silva,Aston Villa,1
+269,Diego Llorente,Leeds,1
+271,Diogo Dalot Teixeira,Man Utd,1
+275,Djed Spence,Spurs,0
+281,Dominic Thompson,Brentford,0
+303,Emerson Leite de Souza Junior,Spurs,1
+305,Emerson Palmieri dos Santos,Chelsea,0
+307,Emil Krafth,Newcastle,0
+319,Eric Bailly,Man Utd,0
+321,Eric Dier,Spurs,1
+325,Ethan Ampadu,Chelsea,0
+327,Ethan Pinnock,Brentford,0
+329,Ezri Konsa Ngoyo,Aston Villa,1
+331,Fabian Schär,Newcastle,1
+339,Federico Fernández,Newcastle,0
+341,Fin Stevens,Brentford,0
+353,Frédéric Guilbert,Aston Villa,0
+363,Gabriel dos Santos Magalhães,Arsenal,1
+369,Giulian Biancone,Nott'm Forest,0
+379,Harrison Ashby,West Ham,0
+387,Harry Maguire,Man Utd,1
+389,Harry Toffolo,Nott'm Forest,1
+401,Haydon Roberts,Brighton,0
+403,Hugo Bueno López,Wolves,0
+411,Ibrahima Konaté,Liverpool,0
+417,Issa Diop,West Ham,0
+421,Ivan Perišić,Spurs,1
+433,Jack Stacey,Bournemouth,0
+435,Jack Stephens,Southampton,0
+453,Jamaal Lascelles,Newcastle,0
+455,Jamal Lewis,Newcastle,0
+461,James Hill,Bournemouth,0
+463,James Justin,Leicester,1
+473,James Tarkowski,Everton,1
+475,James Tomkins,Crystal Palace,0
+483,Jan Bednarek,Southampton,1
+485,Jan Paul van Hecke,Brighton,0
+487,Jannik Vestergaard,Leicester,0
+489,Japhet Tanganga,Spurs,0
+491,Jarrad Branthwaite,Everton,0
+497,Javier Manquillo Gaitán,Newcastle,0
+517,Joachim Andersen,Crystal Palace,1
+521,Joe Bryan,Fulham,0
+527,Joe Rodon,Spurs,0
+533,Joe Worrall,Nott'm Forest,1
+535,Joel Matip,Liverpool,1
+537,Joel Ward,Crystal Palace,0
+543,John Stones,Man City,0
+545,Jonathan Castro Otto,Wolves,1
+547,Jonathan Panzo,Nott'm Forest,0
+551,Jonny Evans,Leicester,1
+559,Jordan Zemura,Bournemouth,1
+563,Joseph Gomez,Liverpool,0
+571,Josh Wilson-Esbrand,Man City,0
+575,João Cancelo,Man City,1
+581,Joël Veltman,Brighton,1
+587,Junior Firpo Adames,Leeds,0
+595,Kaine Kesler Hayden,Aston Villa,0
+597,Kalidou Koulibaly,Chelsea,1
+613,Kenny Tete,Fulham,1
+619,Kevin Mbabu,Fulham,0
+623,Kieran Tierney,Arsenal,1
+625,Kieran Trippier,Newcastle,1
+631,Konstantinos Tsimikas,Liverpool,0
+633,Kortney Hause,Aston Villa,0
+635,Kristoffer Ajer,Brentford,0
+639,Kurt Zouma,West Ham,1
+641,Kyle Walker,Man City,1
+643,Kyle Walker-Peters,Southampton,1
+649,Leo Fuhr Hjelde,Leeds,0
+653,Levi Colwill,Brighton,0
+657,Lewis Brunt,Leicester,0
+661,Lewis Dunk,Brighton,1
+667,Liam Cooper,Leeds,0
+671,Lisandro Martínez,Man Utd,1
+673,Lloyd Kelly,Bournemouth,1
+675,Loïc Mbe Soh,Nott'm Forest,0
+677,Lucas Digne,Aston Villa,1
+683,Ludwig Augustinsson,Aston Villa,0
+693,Luke Ayling,Leeds,0
+695,Luke Chambers,Liverpool,0
+701,Luke Mbete-Tabu,Man City,0
+705,Luke Shaw,Man Utd,1
+707,Luke Thomas,Leicester,0
+709,Lyanco Silveira Neves Vojnovic,Southampton,0
+713,Mads Bech Sørensen,Brentford,0
+717,Mads Roerslev Rasmussen,Brentford,0
+719,Malang Sarr,Chelsea,0
+729,Marc Cucurella Saseta,Chelsea,1
+731,Marc Guéhi,Crystal Palace,1
+735,Marcos Alonso,Chelsea,0
+755,Mason Holgate,Everton,1
+769,Matt Clarke,Brighton,0
+771,Matt Doherty,Spurs,0
+773,Matt Ritchie,Newcastle,0
+775,Matt Targett,Newcastle,1
+779,Matty Cash,Aston Villa,1
+781,Max Kilman,Wolves,1
+784,Michael Keane,Everton,0
+792,Mohamed Dräger,Nott'm Forest,0
+800,Mohammed Salisu,Southampton,1
+810,Moussa Niakhaté,Nott'm Forest,1
+818,Nathan Aké,Man City,1
+820,Nathan Collins,Wolves,1
+822,Nathan Ferguson,Crystal Palace,0
+824,Nathan Patterson,Everton,1
+832,Nathaniel Clyne,Crystal Palace,1
+834,Nathaniel Phillips,Liverpool,0
+836,Nayef Aguerd,West Ham,0
+840,Neco Williams,Nott'm Forest,1
+848,Niels Nkounkou,Everton,0
+853,Nuno Varela Tavares,Arsenal,0
+855,Nélson Cabral Semedo,Wolves,0
+859,Oleksandr Zinchenko,Arsenal,1
+867,Omar Richards,Nott'm Forest,0
+875,Pablo Marí Villar,Arsenal,0
+881,Pascal Struijk,Leeds,1
+887,Paul Dummett,Newcastle,0
+895,Phil Jones,Man Utd,0
+903,Pontus Jansson,Brentford,1
+909,Raphaël Varane,Man Utd,0
+911,Rasmus Kristensen,Leeds,1
+913,Rayan Aït-Nouri,Wolves,1
+917,Reece James,Chelsea,1
+923,Rhys Williams,Liverpool,0
+925,Ricardo Barbosa Pereira,Leicester,0
+929,Richie Laryea,Nott'm Forest,0
+931,Rico Henry,Brentford,1
+933,Rico Lewis,Man City,0
+937,Rob Holding,Arsenal,0
+939,Robert Kenedy Nunes do Nascimento,Chelsea,0
+945,Robin Koch,Leeds,1
+957,Romain Perraud,Southampton,1
+965,Ryan Bertrand,Leicester,0
+971,Ryan Fredericks,Bournemouth,0
+973,Ryan Sessegnon,Spurs,1
+977,Rúben Gato Alves Dias,Man City,1
+979,Rúben Nascimento Vinagre,Everton,1
+997,Scott McKenna,Nott'm Forest,1
+1001,Seamus Coleman,Everton,0
+1005,Sepp van den Berg,Liverpool,0
+1007,Sergi Canós Tenés,Brentford,0
+1009,Sergio Reguilón,Spurs,0
+1013,Shane Duffy,Fulham,0
+1027,Steve Cook,Nott'm Forest,0
+1035,Stuart Dallas,Leeds,0
+1037,Sven Botman,Newcastle,0
+1043,Takehiro Tomiyasu,Arsenal,0
+1045,Tariq Lamptey,Brighton,0
+1049,Terence Kongolo,Fulham,0
+1055,Thiago Emiliano da Silva,Chelsea,1
+1063,Tim Ream,Fulham,1
+1067,Timothy Castagne,Leicester,1
+1069,Tino Livramento,Southampton,0
+1079,Tosin Adarabioyo,Fulham,1
+1081,Toti António Gomes,Wolves,0
+1083,Trent Alexander-Arnold,Liverpool,1
+1085,Trevoh Chalobah,Chelsea,0
+1093,Tyrell Malacia,Man Utd,0
+1097,Tyrick Mitchell,Crystal Palace,1
+1099,Tyrone Mings,Aston Villa,0
+1103,Victor Lindelöf,Man Utd,0
+1105,Virgil van Dijk,Liverpool,1
+1107,Vitalii Mykolenko,Everton,1
+1111,Vladimir Coufal,West Ham,1
+1115,Wesley Fofana,Leicester,1
+1127,William Saliba,Arsenal,1
+1129,Willy Boly,Wolves,0
+1135,Yan Valery,Southampton,0
+1137,Yerry Mina,Everton,0
+1139,Yerson Mosquera Valdelamar,Wolves,0
+1151,Çaglar Söyüncü,Leicester,0
