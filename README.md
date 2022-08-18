@@ -66,29 +66,29 @@ The **reason for this approach is a lot of players don’t play games at all ** 
 #### GOALKEEPERS 
 | Week 2  | validation    data | Real world   |
 | ------------- | ------------- | --------    |
-| Classifier `Accuracy`   | 0.9439        | NewYork   |
-| Regressor `rmse`       |  2.8015        | Toronto   |
+| Classifier `Accuracy`   | 0.9623      | 0.9623   |
+| Regressor `rmse`       |  2.8015        | 3.6523  |
 
 
 #### DEFENDERS 
 | Week 2  | validation    data | Real world   |
 | ------------- | ------------- | --------    |
-| Classifier `Accuracy`   | 0.8185     | NewYork   |
-| Regressor `rmse`       |  2.7219        | Toronto   |
+| Classifier `Accuracy`   | 0.8185     | 0.84136   |
+| Regressor `rmse`       |  2.7219        | 3.8300   |
 
 
 #### MIDFIELDERS 
 | Week 2  | validation    data | Real world   |
 | ------------- | ------------- | --------    |
-| Classifier `Accuracy`   | 0.8219     | NewYork   |
-| Regressor `rmse`       |  1.7819        | Toronto   |
+| Classifier `Accuracy`   | 0.8219     | 0.8808  |
+| Regressor `rmse`       |  1.7819        | 2.9864   |
 
 
 #### FORWARDS 
 | Week 2  | validation    data | Real world   |
 | ------------- | ------------- | --------    |
-| Classifier `Accuracy`   | 0.8196     | NewYork   |
-| Regressor `rmse`       |  2.2106       | Toronto   |
+| Classifier `Accuracy`   | 0.8196     |  0.8135 |
+| Regressor `rmse`       |  2.2106       | 4.9609   |
 
 
 ### PLOTS
