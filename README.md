@@ -60,32 +60,12 @@ The **first model is a classification model that predicts whether a player will 
 The **second model is a regression model that predicts the total points of players that played.**
 The **reason for this approach is a lot of players don’t play games at all ** and just predicting the points of all the players directly means our test dataset will have many **0’s which will strongly affect the quality of our regression model.**<br>
 
-**Goalkeeper models**: Random Forest Classifier and Random Forest Regressor.<br>
-Evaluation results.<br>
-Accuracy_score: 0.94<br>
-F1_score :0.89<br>
-Mean_squared_error:2.801 points.<br>
 
-**Defender models**: Random Forest Classifier and Gradient Boosting Regressor.<br>
-Accuracy score: 0.82<br>
-f1 score: 0.78<br>
-Root_mean_squared_error:  2.718.<br>
-
-
-**Midfielder models**: Random Forest Classifier and Random Forest Regressor.<br>
-Evaluation results.<br>
-Accuracy score: 0.82<br>
-f1 score: 0.82<br>
-Root_mean_squared_error: 2.700<br>
-
-
-**Forwards models**: Random Forest Classifier and Gradient Boosting Regressor.<br>
-Evaluation results.<br>
-Accuracy_score: 0.82<br>
-F1_score :  0.79<br>
-Mean_squared_error: 3.057<br>
-
-
+### Performances
+| WEEK2                        | `Validation performance`    | `Real world performance` 
+| -------------                | -------------               | --------    |
+| Classifier `Accuracy`        | Test1                       | NewYork  |
+| Regressor `rmse`             | Test2                       | Toronto |
 
 
 ### PLOTS
