@@ -66,14 +66,16 @@ The **reason for this approach is a lot of players don’t play games at all ** 
 #### GOALKEEPERS 
 | Week 2  | validation    data | Real world   |
 | ------------- | ------------- | --------    |
-| Classifier `Accuracy`   | 0.9623      | 0.9623   |
+| Classifier `Accuracy`   | 0.9439     | 0.9623   |
+| Classifier `f1_score`   | 0.8922      | 0.9444   |
 | Regressor `rmse`       |  2.8015        | 3.6523  |
 
 
 #### DEFENDERS 
 | Week 2  | validation    data | Real world   |
 | ------------- | ------------- | --------    |
-| Classifier `Accuracy`   | 0.8185     | 0.84136   |
+| Classifier `Accuracy`   | 0.8186     | 0.84136   |
+| Classifier `f1_score`   | 0.7792      | 0.8290   |
 | Regressor `rmse`       |  2.7219        | 3.8300   |
 
 
@@ -81,14 +83,16 @@ The **reason for this approach is a lot of players don’t play games at all ** 
 | Week 2  | validation    data | Real world   |
 | ------------- | ------------- | --------    |
 | Classifier `Accuracy`   | 0.8219     | 0.8808  |
-| Regressor `rmse`       |  1.7819        | 2.9864   |
+| Classifier `f1_score`   | 0.8160      | 0.8852   |
+| Regressor `rmse`       |  2.7003      | 2.9864   |
 
 
 #### FORWARDS 
 | Week 2  | validation    data | Real world   |
 | ------------- | ------------- | --------    |
 | Classifier `Accuracy`   | 0.8196     |  0.8135 |
-| Regressor `rmse`       |  2.2106       | 4.9609   |
+| Classifier `f1_score`   | 0.7946      | 0.8358  |
+| Regressor `rmse`       |  3.0577       | 4.9609   |
 
 
 ### PLOTS
