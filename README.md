@@ -53,7 +53,7 @@ The **reason for this approach is a lot of players don’t play games at all ** 
 
 
 ### PLOTS
-I then created **bar plots** for the top 10 players (with the highest predicted points) in each position, using (**matplotlib**)[].
+I then created **bar plots** for the top 10 players (with the highest predicted points) in each position, using (**matplotlib**)[https://].
 ![Top Goalkeepers for gameweek 1](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/goalkeepers.png)
 Goalkeepers
 ![Top Defenders for gameweek 1](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/defenders.png)
@@ -64,11 +64,6 @@ Midefielders
 Forwards
 
 
-**The team selections for gameweek 1 can be seen below.**
-<br>
-![Teams](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/Screenshot_20220805-104913.png) <br>
-![Starting line up](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/Screenshot_20220805-104933.png)
-
 
 #### I intend on making predictions for every game week and I will be documenting the models prediction and progress here [@fpl__ai](https://twitter.com/fpl__AI).
 
@@ -78,13 +73,13 @@ Forwards
 
 
 ## Folders
-![**datasets folder**]()
+![**datasets folder**](https://)
 The folder contains the raw uncleaned data webscraped directly from the FPL API and this FPL data page. The fixtures and results subfolder contain the fixtures and results from the fixtures for each gameweek in the current season (2023/24).
 
-![**cleaned_datasets folder**]()
+![**cleaned_datasets folder**](https://)
 This folder contains the cleaned CSV files from the datasets folder, new features have been created and some unuseful features have been removed. 
 
-![**predicted_dataset folder**]()
+![**predicted_dataset folder**](https://)
 This folder contains the predictions made on the starting players and points by the model for every gameweek.
 
 **This repo will be updated weekly**
