@@ -8,7 +8,7 @@ I decided to build a machine learning project to check if this is possible, and 
 Source code can be found [here](https://github.com/saheedniyi02/fpl-ai) . **This repo will be updated weekly**<br>
 
 ### Data used?
-Finding FPL data was pretty hard for me at first , I checked data from Opta stats and any popular football stats platform you could think of but I couldn't get, after searching deeply I came across a [GitHub repository for FPL data](https://github.com/vaastav/Fantasy-Premier-League) and thankfully the data had FPL data from 2016/17. I also discovered that FPL has an [API](https://medium.com/@frenzelts/fantasy-premier-league-api-endpoints-a-detailed-guide-acbd5598eb19) that gives access to fantasy football data, for the current season.
+Finding FPL data was pretty hard for me at first , I checked data from Opta stats and most popular football stats platform but I couldn't get something reasonable, after searching deeply I came across a [GitHub repository for FPL data](https://github.com/vaastav/Fantasy-Premier-League) and thankfully the data had FPL data from 2016/17. I also discovered that FPL has an [API](https://medium.com/@frenzelts/fantasy-premier-league-api-endpoints-a-detailed-guide-acbd5598eb19) that gives access to fantasy football data, for the current season.
 
 Data from the github repository ( 2022/23, 2021/2022 and 2020/21 seasons) were used to train the model, the [FPL API](https://medium.com/@frenzelts/fantasy-premier-league-api-endpoints-a-detailed-guide-acbd5598eb19) will be used to get data for every gameweek (Gameweek 1 and 2 data already collected) in the current season.<br><br>
 
