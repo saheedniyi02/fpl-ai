@@ -23,9 +23,9 @@ The data for each player in each gameweek from the 2022/23, 2021/2022 and 2020/2
 ### Cleaning previous season data
 * [**clean_previous_seasons.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/clean_previous_seasons.py) <br>
 Some unused columns were dropped *["xP","opponent_team","expected_assists","expected_goal_involvements","expected_goals","expected_goals_conceded","element_type_ex","team_h_score","team_a_score","element" , "round" ,"fixture","starts" ]* mainly because they had many missing values or don't have much relevance. 
-Some set of historical features of type **list** for some columns (*history_stats* in the [*config.py* file]()) were created, this list had the value of a stat the player had in the last 3 gameweeks, for example, **last 3 assists, last 3 goals,last 3 bps, last 3 saves.**
+Some set of historical features of type **list** for some columns (*history_stats* in the [*config.py* file](https://github.com/saheedniyi02/fpl-ai/blob/master/config.py)) were created, this list had the value of a stat the player had in the last 3 gameweeks, for example, **last 3 assists, last 3 goals,last 3 bps, last 3 saves.**
 
-I then calculated the mean and std of some of these historical features (*mean_features* and *std_features* in the [*config.py* file]()). Finally the *last 3 stats* features were dropped.
+I then calculated the mean and std of some of these historical features (*mean_features* and *std_features* in the [*config.py* file](https://github.com/saheedniyi02/fpl-ai/blob/master/config.py)). Finally the *last 3 stats* features were dropped.
 
 ### Get next gameweek fixtures
 * [**weekly_fixtures.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/weekly_fixtures.py)<br>
