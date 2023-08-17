@@ -18,7 +18,7 @@ Data from the github repository ( 2022/23, 2021/2022 and 2020/21 seasons) were u
 
 * [**merged_previous_seasons.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/merge_previous_seasons_data.py)<br>
 
-The data for each player in each gameweek from the 2022/23, 2021/2022 and 2020/21 seasons were downloaded and merged together, new features were also added like the total stats (points, bonus points, goals,saves and co) the player ammassed for the previous seasons, also a new feature that represents the position on the final EPL table the player's team and every opponent the player play agains had in the season before. Another interesting feature added is a column that shows the percentage a player's value contributed to the teams total value for every gameweek ,and  a column that shows how many players are more valuable than a player in his position for his team.
+The data for each player in each gameweek from the 2022/23, 2021/2022 and 2020/21 seasons were downloaded and merged together, new features were also added like the total stats (points, bonus points, goals,saves and co) the player ammassed for the previous seasons, also a new feature that represents the position on the final EPL table the player's team and every opponent the player played against had in the season before. Another interesting feature added is a column that shows the percentage a player's value contributed to the teams total value for every gameweek ,and  a column that shows how many players are more valuable than a player in his position for his team.
 
 ### Cleaning previous season data
 * [**clean_previous_seasons.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/clean_previous_seasons.py) <br>
