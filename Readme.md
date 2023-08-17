@@ -58,7 +58,7 @@ The **reason for this approach is a lot of players don’t play games at all** a
 
 
 ### PLOTS
-I then created **bar plots** for the top 10 players (with the highest predicted points) in each position on a colab notebook using (**matplotlib**)[https://github.com/saheedniyi02/sport_plots_template/blob/main/FPL_predictions_plot.ipynb].
+I then created **bar plots** for the top 10 players (with the highest predicted points) in each position on a [**colab notebook using matplotlib**](https://github.com/saheedniyi02/sport_plots_template/blob/main/FPL_predictions_plot.ipynb).
 ![Top Goalkeepers for gameweek 2](https://github.com/saheedniyi02/fpl-ai/blob/master/plots/download%20(92).png)
 Goalkeepers
 ![Top Defenders for gameweek 2](https://github.com/saheedniyi02/fpl-ai/blob/master/plots/download%20(92).png)
