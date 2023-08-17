@@ -44,7 +44,7 @@ This file cleans the scraped the data for the next gameweek and prepares it for 
 
 
 ### Modelling
-* [**train_model.py**](https://)<br> 
+* [**train_model.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/train_model.py)<br> 
 
 I built **2 different models** for each position **(Goalkeepers, defenders, midfielders and forwards).**
 
@@ -58,7 +58,7 @@ The **reason for this approach is a lot of players don’t play games at all ** 
 
 
 ### PLOTS
-I then created **bar plots** for the top 10 players (with the highest predicted points) in each position, using (**matplotlib**)[].
+I then created **bar plots** for the top 10 players (with the highest predicted points) in each position on a colab notebook using (**matplotlib**)[https://github.com/saheedniyi02/sport_plots_template/blob/main/FPL_predictions_plot.ipynb].
 ![Top Goalkeepers for gameweek 2](https://github.com/saheedniyi02/fpl-ai/blob/master/plots/download%20(92).png)
 Goalkeepers
 ![Top Defenders for gameweek 2](https://github.com/saheedniyi02/fpl-ai/blob/master/plots/download%20(92).png)
@@ -77,13 +77,13 @@ Forwards
 
 
 ## Folders
-* [**datasets folder**]()<br>
-The folder contains the raw uncleaned data webscraped directly from the FPL API and this FPL data page. The fixtures and results subfolder contain the fixtures and results from the fixtures for each gameweek in the current season (2023/24).
+* [**datasets folder**](https://github.com/saheedniyi02/fpl-ai/tree/master/datasets)<br>
+The folder contains the **raw uncleaned data webscraped directly from the FPL API and the [FPL data repository](https://github.com/vaastav/Fantasy-Premier-League)**. The fixtures and results subfolder contain the fixtures and results from the fixtures for each gameweek in the current season (2023/24).
 
-* [**cleaned_datasets folder**]()<br>
+* [**cleaned_datasets folder**](https://github.com/saheedniyi02/fpl-ai/tree/master/cleaned_dataset)<br>
 This folder contains the cleaned CSV files from the datasets folder, new features have been created and some unuseful features have been removed. 
 
-* [**predicted_dataset folder**]()<br>
+* [**predicted_dataset folder**](https://github.com/saheedniyi02/fpl-ai/tree/master/predicted_dataset)<br>
 This folder contains the predictions made on the starting players and points by the model for every gameweek.
 
 **This repo will be updated weekly**
