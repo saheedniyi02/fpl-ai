@@ -48,9 +48,9 @@ This file cleans the scraped the data for the next gameweek and prepares it for 
 
 I built **2 different models** for each position **(Goalkeepers, defenders, midfielders and forwards).**
 
-The **first model is a classification model that predicts whether a player will start or not.**
+The **first model is a classification model (f1_score and accuracy used as metric) that predicts whether a player will start or not.**
 
-The **second model is a regression model that predicts the total points of players that played.**
+The **second model is a regression model (root mean squared error used as evaluation metric) that predicts the total points of players that played.**
 The **reason for this approach is a lot of players don’t play games at all** and just predicting the points of all the players directly means our test dataset will have many **0’s which will strongly affect the quality of our regression model.**<br>
 
 
