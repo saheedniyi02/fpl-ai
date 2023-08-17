@@ -58,7 +58,7 @@ I then created **bar plots** for the top 10 players (with the highest predicted 
 Goalkeepers
 ![Top Defenders for gameweek 1](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/defenders.png)
 Defenders
-![Top Midfielders for gameweek 1](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/midfielders.png)
+![Top Midfielders for gameweek 1](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/midfielders.png) 
 Midefielders
 ![Top Fowards for gameweek 1](https://github.com/saheedniyi02/fpl-ai/blob/main/plots/forwards.png)
 Forwards
