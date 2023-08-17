@@ -35,7 +35,7 @@ This file basically scrapes test data for the next gameeweek (players,teams , co
 #### [**weekly_fixtures.py**](https://) 
 This file cleans the scraped the data for the next gameweek and prepares it for modelling, features showing the last season position of a players team, the opposition they are facing, the percentage a player's value contributed to the teams total value for the gameweek, and  a feature that shows how many players are more valuable than a player in his position for his team are added (as was done in the *merge_previous_seasons.py* file). The overall values the player had for some features in the last season (2022/23 season) were added.
 
-The file isn't complete yet will be updated soon to support future gameweeks (only supports gameweek 1 currently).
+
 
 
 ### Modeling
@@ -75,3 +75,16 @@ Forwards
 ### Possible Flaws Of the model :
 
 -I observed the model does not think highly of new players coming into the league.
+
+
+## Folders
+![**datasets folder**]()
+The folder contains the raw uncleaned data webscraped directly from the FPL API and this FPL data page. The fixtures and results subfolder contain the fixtures and results from the fixtures for each gameweek in the current season (2023/24).
+
+![**cleaned_datasets folder**]()
+This folder contains the cleaned CSV files from the datasets folder, new features have been created and some unuseful features have been removed. 
+
+![**predicted_dataset folder**]()
+This folder contains the predictions made on the starting players and points by the model for every gameweek.
+
+**This repo will be updated weekly**
