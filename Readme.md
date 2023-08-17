@@ -38,7 +38,7 @@ This file basically scrapes results and actual player performance on the previou
 
 ### Clean next gameweek fixtures
 * [**clean_fixtures.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/clean_fixtures.py)<br>
-This file cleans the scraped the data for the next gameweek and prepares it for modelling, features showing the last season position of a players team, the opposition they are facing, the percentage a player's value contributed to the teams total value for the gameweek, and  a feature that shows how many players are more valuable than a player in his position for his team are added (as was done in the *merge_previous_seasons.py* file). The overall values the player had for some features in the last season (2022/23 season) were added.
+This file cleans the scraped the data for the next gameweek and prepares it for modelling, features showing the last season position of a players team, the opposition they are facing, the percentage a player's value contributed to the teams total value for the gameweek, and  a feature that shows how many players are more valuable than a player in his position for his team are added (as was done in the [*merged_previous_seasons.py*](https://github.com/saheedniyi02/fpl-ai/blob/master/merge_previous_seasons_data.py) file). The overall values the player had for some features in the last season (2022/23 season) were added.
 
 
 
