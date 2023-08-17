@@ -5,7 +5,7 @@
 
 I decided to build a machine learning project to check if this is possible, and to check the quality of the predictions. A twitter account created to monitor the results of the model can be found [here](https://twitter.com/fpl__AI) .
 
-Source code can be found [here](https://github.com/saheedniyi02/fpl-ai) <br>
+Source code can be found [here](https://github.com/saheedniyi02/fpl-ai) . **This repo will be updated weekly**<br>
 
 ### Data used?
 Finding FPL data was pretty hard for me at first , I checked data from Opta stats and any popular football stats platform you could think of but I couldn't get, after searching deeply I came across a [GitHub repository for FPL data](https://github.com/vaastav/Fantasy-Premier-League) and thankfully the data had FPL data from 2016/17. I also discovered that FPL has an [API](https://medium.com/@frenzelts/fantasy-premier-league-api-endpoints-a-detailed-guide-acbd5598eb19) that gives access to fantasy football data, for the current season.
@@ -86,4 +86,3 @@ This folder contains the cleaned CSV files from the datasets folder, new feature
 * [**predicted_dataset folder**](https://github.com/saheedniyi02/fpl-ai/tree/master/predicted_dataset)<br>
 This folder contains the predictions made on the starting players and points by the model for every gameweek.
 
-**This repo will be updated weekly**
