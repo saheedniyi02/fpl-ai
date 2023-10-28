@@ -16,6 +16,8 @@ Data from the github repository ( 2022/23, 2021/2022 and 2020/21 seasons) were u
 
 ### Getting and cleaning Train Data
 
+**28/10/23**: The python files werew written into colab notebooks, to make running faster, since colab has more memory than my computer.
+
 * [**merged_previous_seasons.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/merge_previous_seasons_data.py)<br>
 
 The data for each player in each gameweek from the 2022/23, 2021/2022 and 2020/21 seasons were downloaded and merged together, new features were also added like the total stats (points, bonus points, goals,saves and co) the player amassed for the previous seasons, also a new feature that represents the position on the final EPL table the player's team and every opponent the player played against had in the season before. Another interesting feature added is a column that shows the percentage a player's value contributed to the teams total value for every gameweek ,and  a column that shows how many players are more valuable than a player in his position for his team.
@@ -24,8 +26,9 @@ The data for each player in each gameweek from the 2022/23, 2021/2022 and 2020/2
 * [**clean_previous_seasons.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/clean_previous_seasons.py) <br>
 Some unused columns were dropped *["xP","opponent_team","expected_assists","expected_goal_involvements","expected_goals","expected_goals_conceded","element_type_ex","team_h_score","team_a_score","element" , "round" ,"fixture","starts" ]* mainly because they had many missing values or don't have much relevance. 
 Some set of historical features of type **list** for some columns (*history_stats* in the [*config.py* file](https://github.com/saheedniyi02/fpl-ai/blob/master/config.py)) were created, this list stored the last 3 values of a stat the player had in the last 3 gameweeks, for example, **last 3 assists, last 3 goals,last 3 bps, last 3 saves.**
-
 I then calculated the mean and std of some of these historical features (*mean_features* and *std_features* in the [*config.py* file](https://github.com/saheedniyi02/fpl-ai/blob/master/config.py)). Finally the *last 3 stats* features were dropped.
+
+Another type of features were the **team Goal scored**, **team Goal conceded**, **match_result**, and the **opp team Goal scored**, **opp team Goal conceded**, **opp match_result**: this features were calculated (their average) for the **last three games** and **start of the season**.
 
 ### Get next gameweek fixtures
 * [**weekly_fixtures.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/weekly_fixtures.py)<br>
@@ -38,7 +41,8 @@ This file basically scrapes results and actual player performance on the previou
 
 ### Clean next gameweek fixtures
 * [**clean_fixtures.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/clean_fixtures.py)<br>
-This file cleans the scraped the data for the next gameweek and prepares it for modelling, features showing the last season position of a players team, the opposition they are facing, the percentage a player's value contributed to the teams total value for the gameweek, and  a feature that shows how many players are more valuable than a player in his position for his team are added (as was done in the [*merged_previous_seasons.py*](https://github.com/saheedniyi02/fpl-ai/blob/master/merge_previous_seasons_data.py) file). The overall values the player had for some features in the last season (2022/23 season) were added.
+This file cleans the scraped the data for the next gameweek and prepares it for modelling, new features were added too (as was done in the [*merged_previous_seasons.py*](https://github.com/saheedniyi02/fpl-ai/blob/master/merge_previous_seasons_data.py) file). The overall values the player had for some features in the last season (2022/23 season) were added.
+
 
 
 
@@ -46,12 +50,12 @@ This file cleans the scraped the data for the next gameweek and prepares it for 
 ### Modelling
 * [**train_model.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/train_model.py)<br> 
 
-I built **2 different models** for each position **(Goalkeepers, defenders, midfielders and forwards).**
+I built **2 different models**
 
-The **first model is a classification model (f1_score and accuracy used as metric) that predicts whether a player will start or not.**
+The **first model is a classification model (f1_score and accuracy used as metric) that predicts whether a player will start a game or not.**
 
 The **second model is a regression model (root mean squared error used as evaluation metric) that predicts the total points of players that played.**
-The **reason for this approach is a lot of players don’t play games at all** and just predicting the points of all the players directly means our test dataset will have many **0’s which will strongly affect the quality of our regression model.**<br>
+The **reason for this approach is a lot of players don’t play games at all** and just predicting the points of all the players directly means our test dataset will have many **0’s** which will strongly affect the quality of our regression model.<br>
 
 
 
@@ -70,10 +74,6 @@ Forwards
 
 
 #### I intend on making predictions for every game week and I will be documenting the models prediction and progress here [@fpl__ai](https://twitter.com/fpl__AI).
-
-### Possible Flaws Of the model :
-
--I observed the model does not think highly of new players coming into the league.
 
 
 ## Folders
