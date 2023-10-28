@@ -18,15 +18,14 @@ Data from the github repository ( 2022/23, 2021/2022 and 2020/21 seasons) were u
 
 **28/10/23**: The python files werew written into colab notebooks, to make running faster, since colab has more memory than my computer.
 
-* [**merged_previous_seasons.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/merge_previous_seasons_data.py)<br>
-
+* [**merged_previous_seasons.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/merge_previous_seasons_data.py)<br><br>
 The data for each player in each gameweek from the 2022/23, 2021/2022 and 2020/21 seasons were downloaded and merged together, new features were also added like the total stats (points, bonus points, goals,saves and co) the player amassed for the previous seasons, also a new feature that represents the position on the final EPL table the player's team and every opponent the player played against had in the season before. Another interesting feature added is a column that shows the percentage a player's value contributed to the teams total value for every gameweek ,and  a column that shows how many players are more valuable than a player in his position for his team.
 
 ### Cleaning previous season data
 * [**clean_previous_seasons.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/clean_previous_seasons.py) <br>
 Some unused columns were dropped **["xP","opponent_team","expected_assists","expected_goal_involvements","expected_goals","expected_goals_conceded","element_type_ex","team_h_score","team_a_score","element" , "round" ,"fixture","starts" ]** mainly because they had many missing values or don't have much relevance. 
 Some set of historical features of type **list** for some columns (*history_stats* in the [*config.py* file](https://github.com/saheedniyi02/fpl-ai/blob/master/config.py)) were created, this list stored the last 3 values of a stat the player had in the last 3 gameweeks, for example, **last 3 assists, last 3 goals,last 3 bps, last 3 saves.**
-I then calculated the mean and std of some of these historical features (*mean_features* and *std_features* in the [*config.py* file](https://github.com/saheedniyi02/fpl-ai/blob/master/config.py)). Finally the *last 3 stats* features were dropped.
+I then calculated the mean and std of some of these historical features (*mean_features* and *std_features* in the [*config.py* file](https://github.com/saheedniyi02/fpl-ai/blob/master/config.py)). Finally the *last 3 stats* features were dropped.<br><br>
 Another type of features created were the **team Goal scored**, **team Goal conceded**, **match_result**, and the **opp team Goal scored**, **opp team Goal conceded**, **opp match_result**: this features were calculated (their average) for the **last three games** and **start of the season**, **the features were created to show the form of the team and the opponent they are facing**.
 
 ### Get next gameweek fixtures
