@@ -28,7 +28,7 @@ Some unused columns were dropped *["xP","opponent_team","expected_assists","expe
 Some set of historical features of type **list** for some columns (*history_stats* in the [*config.py* file](https://github.com/saheedniyi02/fpl-ai/blob/master/config.py)) were created, this list stored the last 3 values of a stat the player had in the last 3 gameweeks, for example, **last 3 assists, last 3 goals,last 3 bps, last 3 saves.**
 I then calculated the mean and std of some of these historical features (*mean_features* and *std_features* in the [*config.py* file](https://github.com/saheedniyi02/fpl-ai/blob/master/config.py)). Finally the *last 3 stats* features were dropped.
 
-Another type of features were the **team Goal scored**, **team Goal conceded**, **match_result**, and the **opp team Goal scored**, **opp team Goal conceded**, **opp match_result**: this features were calculated (their average) for the **last three games** and **start of the season**.
+Another type of features created were the **team Goal scored**, **team Goal conceded**, **match_result**, and the **opp team Goal scored**, **opp team Goal conceded**, **opp match_result**: this features were calculated (their average) for the **last three games** and **start of the season**, **the features were created to show the form of the team and the opponent they are facing**.
 
 ### Get next gameweek fixtures
 * [**weekly_fixtures.py**](https://github.com/saheedniyi02/fpl-ai/blob/master/weekly_fixtures.py)<br>
