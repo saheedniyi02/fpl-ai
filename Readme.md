@@ -70,6 +70,10 @@ Midefielders
 ![Top Fowards for gameweek 2](https://github.com/saheedniyi02/fpl-ai/blob/master/plots/download%20(92).png)
 Forwards
 
+#### Feature importance plot
+![Feature importance](https://github.com/saheedniyi02/fpl-ai/blob/master/plots/download%20(25).png)
+Feature importance
+
 
 #### I intend on making predictions for every game week and I will be documenting the models prediction and progress here [@fpl__ai](https://twitter.com/fpl__AI).
 
